@@ -1,0 +1,329 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ThingDefs>
+
+
+  <ThingDef Name="BaseWolvxGun" Abstract="True">
+    <category>Item</category>
+    <thingClass>ThingWithComps</thingClass>
+    <equipmentType>Primary</equipmentType>
+    <pathCost>10</pathCost>
+    <useHitPoints>True</useHitPoints>
+    <selectable>True</selectable>
+    <graphicData>
+      <onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
+    </graphicData>
+    <drawGUIOverlay>true</drawGUIOverlay>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+      <DeteriorationRate>2</DeteriorationRate>
+      <SellPriceFactor>0.5</SellPriceFactor>
+    </statBases>
+    <altitudeLayer>Item</altitudeLayer>
+    <alwaysHaulable>True</alwaysHaulable>
+    <tickerType>Never</tickerType>
+    <techLevel>Industrial</techLevel>
+    <thingCategories>
+      <li>WeaponsRanged</li>
+    </thingCategories>
+    <inspectorTabs>
+      <li>ITab_Art</li>
+    </inspectorTabs>
+    <comps>
+      <li Class="CompProperties_Forbiddable"/>
+      <li>
+        <compClass>CompEquippable</compClass>
+      </li>
+      <li>
+        <compClass>CompQuality</compClass>
+      </li>
+      <li Class="CompProperties_Art">
+        <nameMaker>ArtName_WeaponGun</nameMaker>
+        <descriptionMaker>ArtDescription_WeaponGun</descriptionMaker>
+        <minQualityForArtistic>Excellent</minQualityForArtistic>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef Name="BaseWolvxMakeableGun" ParentName="BaseWolvxGun" Abstract="True">
+    <recipeMaker>
+      <workSpeedStat>SmithingSpeed</workSpeedStat>
+      <workSkill>Crafting</workSkill>
+      <effectWorking>Smith</effectWorking>
+      <soundWorking>Recipe_Smith</soundWorking>
+      <recipeUsers>
+        <li>TableMachining</li>
+      </recipeUsers>
+      <unfinishedThingDef>UnfinishedGun</unfinishedThingDef>
+    </recipeMaker>
+  </ThingDef>
+
+
+  <ThingDef Name="BaseWolvxBullet" Abstract="True">
+    <category>Projectile</category>
+    <tickerType>Normal</tickerType>
+    <altitudeLayer>Projectile</altitudeLayer>
+    <thingClass>Bullet</thingClass>
+    <label>bullet</label>
+    <useHitPoints>False</useHitPoints>
+    <neverMultiSelect>True</neverMultiSelect>
+    <graphicData>
+      <shaderType>TransparentPostLight</shaderType>
+    </graphicData>
+  </ThingDef>
+
+
+  <ThingDef Name="BaseWolvMeleeWeapon" Abstract="True">
+    <category>Item</category>
+    <thingClass>ThingWithComps</thingClass>
+    <equipmentType>Primary</equipmentType>
+    <pathCost>10</pathCost>
+    <useHitPoints>True</useHitPoints>
+    <selectable>True</selectable>
+    <graphicData>
+      <onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
+    </graphicData>
+    <drawGUIOverlay>true</drawGUIOverlay>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+      <DeteriorationRate>1</DeteriorationRate>
+      <SellPriceFactor>0.5</SellPriceFactor>
+    </statBases>
+    <altitudeLayer>Item</altitudeLayer>
+    <alwaysHaulable>True</alwaysHaulable>
+    <tickerType>Never</tickerType>
+    <techLevel>Industrial</techLevel>
+    <weaponTags>
+		<li>Melee</li>
+    </weaponTags>
+    <thingCategories>
+      <li>WeaponsMelee</li>
+    </thingCategories>
+    <comps>
+      <li Class="CompProperties_Forbiddable"/>
+      <li>
+        <compClass>CompEquippable</compClass>
+      </li>
+      <li>
+        <compClass>CompQuality</compClass>
+      </li>
+      <li Class="CompProperties_Art">
+        <nameMaker>ArtName_WeaponMelee</nameMaker>
+        <descriptionMaker>ArtDescription_WeaponMelee</descriptionMaker>
+        <minQualityForArtistic>Excellent</minQualityForArtistic>
+      </li>
+    </comps>
+    <recipeMaker>
+      <workSpeedStat>SmithingSpeed</workSpeedStat>
+      <workSkill>Crafting</workSkill>
+      <effectWorking>Smith</effectWorking>
+      <soundWorking>Recipe_Smith</soundWorking>
+      <recipeUsers>
+        <li>ElectricSmithy</li>
+        <li>FueledSmithy</li>
+      </recipeUsers>
+      <unfinishedThingDef>UnfinishedWeapon</unfinishedThingDef>
+    </recipeMaker>
+    <inspectorTabs>
+      <li>ITab_Art</li>
+    </inspectorTabs>
+  </ThingDef>
+
+
+
+  <ThingDef Name="BaseMeleeWeapon_WSharp" ParentName="BaseWolvMeleeWeapon" Abstract="True">
+    <recipeMaker>
+    <defaultIngredientFilter>
+      <categories>
+        <li>Root</li>
+      </categories>
+      <exceptedThingDefs>
+        <li>Silver</li>
+        <li>Gold</li>
+        <li>WoodLog</li>
+      </exceptedThingDefs>
+    </defaultIngredientFilter>
+    </recipeMaker>
+  </ThingDef>
+
+  <ThingDef Name="BaseMeleeWeapon_WBlunt" ParentName="BaseWolvMeleeWeapon" Abstract="True">
+    <recipeMaker>
+      <defaultIngredientFilter>
+        <categories>
+          <li>Root</li>
+        </categories>
+        <exceptedThingDefs>
+          <li>Silver</li>
+          <li>Gold</li>
+        </exceptedThingDefs>
+      </defaultIngredientFilter>
+    </recipeMaker>
+  </ThingDef>
+
+<!-- ============================================================== -->
+
+
+  <ThingDef ParentName="BaseMeleeWeapon_WSharp">
+    <defName>Wolv_Katana</defName>
+    <label>Wolverine Katana</label>
+    <description>Katana were one of the traditionally made Japanese swords that were used by the samurai of feudal Japan. This one was created with modern techniques, but maintains an ancient design style.</description>
+    <graphicData>
+      <texPath>Things/Weps/DBKatana</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <techLevel>Medieval</techLevel>
+    <weaponTags>
+	  <li>Melee</li>
+    <li>Industrial</li>
+	  <li>Medieval</li>
+    <li>WolvWep</li>
+    </weaponTags>
+    <soundInteract>InteractPistol</soundInteract>
+    <canBeSpawningInventory>true</canBeSpawningInventory>
+    <tradeability>Sellable</tradeability>
+    <costStuffCount>80</costStuffCount>
+    <statBases>
+      <WorkToMake>20000</WorkToMake>
+      <MeleeWeapon_DamageAmount>13</MeleeWeapon_DamageAmount>
+      <MeleeWeapon_Cooldown>0.8</MeleeWeapon_Cooldown>
+    </statBases>
+    <equippedAngleOffset>-65</equippedAngleOffset>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <verbs>
+      <li>
+        <verbClass>Verb_MeleeAttack</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <meleeDamageDef>Cut</meleeDamageDef>
+      </li>
+    </verbs>
+	<smeltProducts>
+		<Steel>5</Steel>
+	</smeltProducts>	
+  </ThingDef>
+
+
+
+  <ThingDef ParentName="BaseMeleeWeapon_WSharp">
+    <defName>Wolv_Axe</defName>
+    <label>Wolverine Axe</label>
+    <description>This large axe sacrifices speed for a vicious attack power.</description>
+    <graphicData>
+      <texPath>Things/Weps/NdAxe</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <techLevel>Medieval</techLevel>
+    <weaponTags>
+	  <li>Melee</li>
+    <li>Industrial</li>
+	  <li>Medieval</li>
+    <li>WolvWep</li>
+    </weaponTags>
+    <soundInteract>InteractPistol</soundInteract>
+    <canBeSpawningInventory>true</canBeSpawningInventory>
+    <tradeability>Sellable</tradeability>
+    <costStuffCount>80</costStuffCount>
+    <statBases>
+      <WorkToMake>20000</WorkToMake>
+      <MeleeWeapon_DamageAmount>23</MeleeWeapon_DamageAmount>
+      <MeleeWeapon_Cooldown>1.8</MeleeWeapon_Cooldown>
+    </statBases>
+    <equippedAngleOffset>-65</equippedAngleOffset>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <verbs>
+      <li>
+        <verbClass>Verb_MeleeAttack</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <meleeDamageDef>Cut</meleeDamageDef>
+      </li>
+    </verbs>
+	<smeltProducts>
+		<Steel>5</Steel>
+	</smeltProducts>	
+  </ThingDef>
+
+    <ThingDef ParentName="BaseMeleeWeapon_WBlunt">
+    <defName>Wolv_Mace</defName>
+    <label>Wolverine Mace</label>
+    <description>This brutal spiked mace was made based on medieval earth designs.</description>
+    <graphicData>
+      <texPath>Things/Weps/SteelMace</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <techLevel>Medieval</techLevel>
+    <weaponTags>
+	  <li>Melee</li>
+    <li>Industrial</li>
+	  <li>Medieval</li>
+    <li>WolvWep</li>
+    </weaponTags>
+    <soundInteract>InteractPistol</soundInteract>
+    <canBeSpawningInventory>true</canBeSpawningInventory>
+    <tradeability>Sellable</tradeability>
+    <costStuffCount>80</costStuffCount>
+    <statBases>
+      <WorkToMake>20000</WorkToMake>
+      <MeleeWeapon_DamageAmount>13</MeleeWeapon_DamageAmount>
+      <MeleeWeapon_Cooldown>0.8</MeleeWeapon_Cooldown>
+    </statBases>
+    <equippedAngleOffset>-65</equippedAngleOffset>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <verbs>
+      <li>
+        <verbClass>Verb_MeleeAttack</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <meleeDamageDef>Blunt</meleeDamageDef>
+      </li>
+    </verbs>
+	<smeltProducts>
+		<Steel>5</Steel>
+	</smeltProducts>	
+  </ThingDef>
+
+  <ThingDef ParentName="BaseMeleeWeapon_WSharp">
+    <defName>Wolv_Sword</defName>
+    <label>Wolverine Sword</label>
+    <description>This is a classically designed arming sword.</description>
+    <graphicData>
+      <texPath>Things/Weps/SwordSt</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <techLevel>Medieval</techLevel>
+    <weaponTags>
+	  <li>Melee</li>
+    <li>Industrial</li>
+	  <li>Medieval</li>
+    <li>WolvWep</li>
+    </weaponTags>
+    <soundInteract>InteractPistol</soundInteract>
+    <canBeSpawningInventory>true</canBeSpawningInventory>
+    <tradeability>Sellable</tradeability>
+    <costStuffCount>80</costStuffCount>
+    <statBases>
+      <WorkToMake>20000</WorkToMake>
+      <MeleeWeapon_DamageAmount>14</MeleeWeapon_DamageAmount>
+      <MeleeWeapon_Cooldown>0.9</MeleeWeapon_Cooldown>
+    </statBases>
+    <equippedAngleOffset>-65</equippedAngleOffset>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <verbs>
+      <li>
+        <verbClass>Verb_MeleeAttack</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <meleeDamageDef>Cut</meleeDamageDef>
+      </li>
+    </verbs>
+	<smeltProducts>
+		<Steel>5</Steel>
+	</smeltProducts>	
+  </ThingDef>
+
+</ThingDefs>

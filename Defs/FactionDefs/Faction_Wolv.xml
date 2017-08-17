@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<FactionDefs>
+
+  <FactionDef>
+		<defName>WolvxMilitary</defName>
+		<label>LMS Military</label>
+    <description>A colony of the Logan Military State.</description>
+    <pawnsPlural>Logan</pawnsPlural>
+    <baseSelectionWeight>.75</baseSelectionWeight>
+    <requiredCountAtGameStart>1</requiredCountAtGameStart>
+    <canMakeRandomly>true</canMakeRandomly>
+    <raidCommonality>100</raidCommonality>
+    <canSiege>true</canSiege>
+    <canStageAttacks>true</canStageAttacks>
+    <leaderTitle>General</leaderTitle>
+    <startingGoodwill>
+      <min>10</min>
+      <max>40</max>
+    </startingGoodwill>
+	<fixedName>LMS Military</fixedName>
+	<baseNameMaker>NamerWolvBase</baseNameMaker>
+	<techLevel>Ultra</techLevel>
+	<backstoryCategory>WolvxBackstory</backstoryCategory>
+			<hairTags>
+			<li>WolvxHair</li>
+			</hairTags>
+    <naturalColonyGoodwill>
+      <min>-60</min>
+      <max>0</max>
+    </naturalColonyGoodwill>
+    <visitorTraderKinds>
+      <li>Visitor_Wolvx_Standard</li>
+    </visitorTraderKinds>
+   <caravanTraderKinds>
+      <li>Caravan_Outlander_BulkGoods</li>
+      <li>Caravan_Outlander_CombatSupplier</li>
+      <li>Caravan_Outlander_Exotic</li>
+    </caravanTraderKinds>
+    <baseTraderKinds>
+      <li>Base_Outlander_Standard</li>
+    </baseTraderKinds>
+    <allowedArrivalTemperatureRange>
+      <min>-50</min>
+      <max>45</max>
+    </allowedArrivalTemperatureRange>
+    <pawnGroupMakers>
+      <li>
+        <kindDef>Normal</kindDef>
+        <options>
+          <WolvxColonist>50</WolvxColonist>
+          <WolvxSecurityGuard>90</WolvxSecurityGuard>
+          <WolvxExecutive>250</WolvxExecutive>
+          <WolvxMerc>100</WolvxMerc>
+          <WolvxBrawler>130</WolvxBrawler>
+          <WolvxProfessional>130</WolvxProfessional>
+          <WolvxNinja>170</WolvxNinja>
+        </options>
+      </li>
+	  <li>
+      <kindDef>Trader</kindDef>
+        <traders>
+          <WolvxTrader>1</WolvxTrader>
+        </traders>
+        <carriers>
+          <Muffalo>2</Muffalo>
+          <Dromedary>2</Dromedary>
+        </carriers>
+        <guards>
+          <WolvxSecurityGuard>90</WolvxSecurityGuard>
+          <WolvxMerc>100</WolvxMerc>
+          <WolvxBrawler>130</WolvxBrawler>
+          <WolvxProfessional>130</WolvxProfessional>
+        </guards>
+      </li>
+	  <li>
+        <kindDef>FactionBase</kindDef>
+        <options>
+          <WolvxColonist>50</WolvxColonist>
+          <WolvxSecurityGuard>90</WolvxSecurityGuard>
+          <WolvxExecutive>250</WolvxExecutive>
+          <WolvxMerc>100</WolvxMerc>
+          <WolvxBrawler>130</WolvxBrawler>
+          <WolvxProfessional>130</WolvxProfessional>
+          <WolvxNinja>170</WolvxNinja>
+        </options>
+      </li>
+    </pawnGroupMakers>
+    <homeIconPath>World/WolvxBaseIcon</homeIconPath>
+	<expandingIconTexture>World/WolvxBaseIcon</expandingIconTexture>
+  </FactionDef>
+
+</FactionDefs>

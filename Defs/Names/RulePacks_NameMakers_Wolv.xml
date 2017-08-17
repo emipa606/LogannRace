@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<NameMakerDefs>
+
+<RulePackDef>
+    <defName>NamerPersonWolvxMale</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>name->[WolvxMfirst] [Wolvxlast]</li>
+        <li>name->[badasswx] [Wolvxfirst]</li>
+        <li>name->[WolvxMfirst] '[badasswx]' [Wolvxlast]</li>
+        <li>name->[badasswx] '[nick]' [Wolvxlast]</li>
+        <li>name->[WolvxMfirst] '[nick]' [Wolvxlast]</li>
+        <li>name->[WolvxMfirst] [badasswx]</li>
+      </rulesStrings>
+      <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>WolvxMfirst</keyword>
+          <path>Wolvx_Names/WolvxM</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>Wolvxlast</keyword>
+          <path>Wolvx_Names/Wolvxlast</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>badasswx</keyword>
+          <path>Wolvx_Names/Concepts_Wolv</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>nick</keyword>
+          <path>Wolvx_Names/Nicks</path>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+  
+  <RulePackDef>
+    <defName>NamerPersonWolvxFemale</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>name->[WolvxFfirst] [Wolvxlast]</li>
+        <li>name->[badasswx] [Wolvxfirst]</li>
+        <li>name->[WolvxFfirst] '[badasswx]' [Wolvxlast]</li>
+        <li>name->[WolvxFfirst] '[nick]' [Wolvxlast]</li>
+        <li>name->[WolvxFfirst] [badasswx]</li>
+      </rulesStrings>
+      <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>WolvxFfirst</keyword>
+          <path>Wolvx_Names/WolvxF</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>Wolvxlast</keyword>
+          <path>Wolvx_Names/Wolvxlast</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>badasswx</keyword>
+          <path>Wolvx_Names/Concepts_Wolv</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>nick</keyword>
+          <path>Wolvx_Names/Nicks</path>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+
+  <RulePackDef>
+    <defName>NamerWolvBase</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>name->[Wolvbase] [Wolvother] [Wolvdesc]</li>
+        <li>name->[Wolvbase] [Wolvdesc]</li>
+      </rulesStrings>
+      <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>Wolvbase</keyword>
+          <path>Wolvx_Names/Wolvbase</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>Wolvdesc</keyword>
+          <path>Wolvx_Names/Wolvdesc</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>Wolvother</keyword>
+          <path>Wolvx_Names/Wolvother</path>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+
+</NameMakerDefs>
