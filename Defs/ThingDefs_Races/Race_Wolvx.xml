@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-<ThingDef Name="BasePawn" Abstract="True">
+<ThingDef Name="BaseWolvPawn" Abstract="True">
     <thingClass>Pawn</thingClass>
     <category>Pawn</category>
     <selectable>true</selectable>
@@ -27,7 +27,7 @@
     <drawGUIOverlay>true</drawGUIOverlay>
 </ThingDef>
 
-<AlienRace.ThingDef_AlienRace ParentName="BasePawn">
+<AlienRace.ThingDef_AlienRace ParentName="BaseWolvPawn">
     <defName>Alien_Wolvx</defName>
     <label>Wolvx</label>
     <description>A curious Ferret race, known for their business acumen.</description>
