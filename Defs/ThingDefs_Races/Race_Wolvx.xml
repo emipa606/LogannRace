@@ -29,8 +29,8 @@
 
 <AlienRace.ThingDef_AlienRace ParentName="BaseWolvPawn">
     <defName>Alien_Wolvx</defName>
-    <label>Wolvx</label>
-    <description>A curious Ferret race, known for their business acumen.</description>
+    <label>Logann</label>
+    <description>A robust race of fighters, the Logann boast an uncanny regeneration factor.</description>
     <alienRace>
         <generalSettings>
             <MaleGenderProbability>0.51</MaleGenderProbability>
