@@ -38,6 +38,7 @@
 				<healWoundFactorMax>0.2</healWoundFactorMax>
 				<ticksBetweenMajorHeal>2000</ticksBetweenMajorHeal>
 				<ticksBetweenMinorHeal>60</ticksBetweenMinorHeal>
+				<healOldWoundStage>4</healOldWoundStage>
 			</li>
 		</modExtensions>
 	</HediffDef>
