@@ -164,6 +164,74 @@
 <!-- ============================================================== -->
 
 
+
+
+<ThingDef ParentName="BaseBullet">
+    <defName>Bullet_WolvShotgun</defName>
+    <label>shotgun blast</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Shotgun</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>24</damageAmountBase>
+      <speed>55</speed>
+    </projectile>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseWolvxMakeableGun">
+    <defName>Gun_WolvShotgun</defName>
+    <label>wolverine shotgun</label>
+    <description>A magazine-fed fully automatic shotgun. Short range and very low accuracy, but extraordinarily dangerous.</description>
+    <graphicData>
+      <texPath>Things/Weps/AW12x</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>InteractShotgun</soundInteract>
+		<generateCommonality>0.3</generateCommonality>
+    <weaponTags>
+    <li>WolvWep</li>
+    </weaponTags>
+    <statBases>
+      <WorkToMake>45000</WorkToMake>
+      <Mass>4.5</Mass>
+      <AccuracyTouch>0.80</AccuracyTouch>
+      <AccuracyShort>0.63</AccuracyShort>
+      <AccuracyMedium>0.40</AccuracyMedium>
+      <AccuracyLong>0.40</AccuracyLong>
+      <RangedWeapon_Cooldown>0.36</RangedWeapon_Cooldown>
+      <MeleeWeapon_DamageAmount>13</MeleeWeapon_DamageAmount>
+      <MeleeWeapon_Cooldown>0.8</MeleeWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>70</Steel>
+      <Component>5</Component>
+    </costList>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <projectileDef>Bullet_WolvShotgun</projectileDef>
+        <warmupTime>2.1</warmupTime>
+        <range>10</range>
+        <burstShotCount>3</burstShotCount>
+        <ticksBetweenBurstShots>12</ticksBetweenBurstShots>
+        <soundCast>ShotShotgun</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+      <li>
+        <verbClass>Verb_MeleeAttack</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <meleeDamageDef>Cut</meleeDamageDef>
+      </li>
+    </verbs>
+  </ThingDef>
+
+
+
+
   <ThingDef ParentName="BaseMeleeWeapon_WSharp">
     <defName>Wolv_Katana</defName>
     <label>Wolverine Katana</label>
