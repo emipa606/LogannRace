@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <WolvxSpyKid.title>Test1</WolvxSpyKid.title>
+  <WolvxSpyKid.titleShort>Test1</WolvxSpyKid.titleShort>
+
+  <WolvxToughkid.title>Test2</WolvxToughkid.title>
+  <WolvxToughkid.titleShort>Test2</WolvxToughkid.titleShort>
+
+  <WolvxEngineer.title>Test3</WolvxEngineer.title>
+  <WolvxEngineer.titleShort>Test3</WolvxEngineer.titleShort>
+
+  <WolvxCuriouskid.title>Test4</WolvxCuriouskid.title>
+  <WolvxCuriouskid.titleShort>Test4</WolvxCuriouskid.titleShort>
+
+  <WolvxSpacer.title>Test5</WolvxSpacer.title>
+  <WolvxSpacer.titleShort>Test5</WolvxSpacer.titleShort>
+
+  <WolvxCmd1x.title>Test6</WolvxCmd1x.title>
+  <WolvxCmd1x.titleShort>Test6</WolvxCmd1x.titleShort>
+
+  <WolvxCmd2x.title>Test7</WolvxCmd2x.title>
+  <WolvxCmd2x.titleShort>Test7</WolvxCmd2x.titleShort>
+
+  <WolvxColonyKid.title>Combat medic trainee</WolvxColonyKid.title>
+  <WolvxColonyKid.titleShort>CM-trainee</WolvxColonyKid.titleShort>
+
+  <WolvxCoreKid.title>Infantry trainee</WolvxCoreKid.title>
+  <WolvxCoreKid.titleShort>I-Trainee</WolvxCoreKid.titleShort>
+
+  <WolvxDigKid.title>Marine trainee</WolvxDigKid.title>
+  <WolvxDigKid.titleShort>M-trainee</WolvxDigKid.titleShort>
+
+  <WolvxCityKid.title>Comms specialist trainee</WolvxCityKid.title>
+  <WolvxCityKid.titleShort>Comm-trainee</WolvxCityKid.titleShort>
+
+  <WolvxInf1x.title>Infantry trainee</WolvxInf1x.title>
+  <WolvxInf1x.titleShort>I-Trainee</WolvxInf1x.titleShort>
+
+  <WolvxInf2x.title>Infantry trainee</WolvxInf2x.title>
+  <WolvxInf2x.titleShort>I-Trainee</WolvxInf2x.titleShort>
+
+
+  <!-- Adult Stories - not porn -->
+
+  <WolvxCommander.title>Army commander</WolvxCommander.title>
+  <WolvxCommander.titleShort>Army commander</WolvxCommander.titleShort>
+
+  <WolvxMCommander.title>Merc commander</WolvxMCommander.title>
+  <WolvxMCommander.titleShort>Merc commander</WolvxMCommander.titleShort>
+
+  <WolvxSoldierAx.title>Army soldier</WolvxSoldierAx.title>
+  <WolvxSoldierAx.titleShort>Army soldier</WolvxSoldierAx.titleShort>
+
+  <WolvxSoldierMx.title>Merc soldier</WolvxSoldierMx.title>
+  <WolvxSoldierMx.titleShort>Merc soldier</WolvxSoldierMx.titleShort>
+
+  <WolvxGunmakerA.title>Army gunsmith</WolvxGunmakerA.title>
+  <WolvxGunmakerA.titleShort>Army gunsmith</WolvxGunmakerA.titleShort>
+
+  <WolvxGunmakerM.title>Merc gunsmith</WolvxGunmakerM.title>
+  <WolvxGunmakerM.titleShort>Merc gunsmith</WolvxGunmakerM.titleShort>
+
+  <WolvxCmbEngA.title>Army engineer</WolvxCmbEngA.title>
+  <WolvxCmbEngA.titleShort>Army engineer</WolvxCmbEngA.titleShort>
+
+  <WolvxCmbEngM.title>Merc engineer</WolvxCmbEngM.title>
+  <WolvxCmbEngM.titleShort>Merc engineer</WolvxCmbEngM.titleShort>
+
+  <!--[Duplicated] <WolvxAMedic.title>Army medic</WolvxAMedic.title>-->
+  <!--[Duplicated] <WolvxAMedic.titleShort>Army medic</WolvxAMedic.titleShort>-->
+
+  <WolvxAMedic.title>Merc medic</WolvxAMedic.title>
+  <WolvxAMedic.titleShort>Merc medic</WolvxAMedic.titleShort>
+
+  <WolvxScout.title>Army scout</WolvxScout.title>
+  <WolvxScout.titleShort>Army scout</WolvxScout.titleShort>
+
+  <WolvxMScout.title>Merc scout</WolvxMScout.title>
+  <WolvxMScout.titleShort>Merc scout</WolvxMScout.titleShort>
+
+  <MajorWolvx.title>Army major</MajorWolvx.title>
+  <MajorWolvx.titleShort>Army major</MajorWolvx.titleShort>
+
+  <MajorMWolvx.title>Merc major</MajorMWolvx.title>
+  <MajorMWolvx.titleShort>Merc major</MajorMWolvx.titleShort>
+
+  <WolvxAPilot.title>Army pilot</WolvxAPilot.title>
+  <WolvxAPilot.titleShort>Army pilot</WolvxAPilot.titleShort>
+
+  <WolvxMPilot.title>Merc pilot</WolvxMPilot.title>
+  <WolvxMPilot.titleShort>Merc pilot</WolvxMPilot.titleShort>
+
+  <WolvxACommando.title>Army commando</WolvxACommando.title>
+  <WolvxACommando.titleShort>Army commando</WolvxACommando.titleShort>
+
+  <WolvxMCommando.title>Merc commando</WolvxMCommando.title>
+  <WolvxMCommando.titleShort>Merc commando</WolvxMCommando.titleShort>
+
+  <WolvxADemo.title>Army demolitions</WolvxADemo.title>
+  <WolvxADemo.titleShort>Army demo</WolvxADemo.titleShort>
+
+  <WolvxMDemo.title>Merc demolitions</WolvxMDemo.title>
+  <WolvxMDemo.titleShort>Merc demo</WolvxMDemo.titleShort>
+
+  <Wolvxmechw.title>Mech pilot</Wolvxmechw.title>
+  <Wolvxmechw.titleShort>Mechwarrior</Wolvxmechw.titleShort>
+
+
+</LanguageData>

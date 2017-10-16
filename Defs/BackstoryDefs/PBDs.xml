@@ -32,4 +32,22 @@
     <factionLeader>false</factionLeader>
 </AlienRace.PawnBioDef>
 
+
+
+<AlienRace.PawnBioDef>
+    <defName>WBio_BJBlaz</defName>
+    <childhoodDef>WolvxBJCH</childhoodDef> 
+    <adulthoodDef>WolvxBJAD</adulthoodDef>
+    <gender>Male</gender>
+    <name>
+      <first>BJ</first>
+      <last>Blazkowicz</last>
+      <nick>Blazko</nick>
+    </name>
+    <validRaces>
+          <li>Alien_Wolvx</li>
+    </validRaces>
+    <factionLeader>false</factionLeader>
+</AlienRace.PawnBioDef>
+
 </PawnBioDefs>

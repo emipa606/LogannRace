@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <WolverineHealingFactor.label>Facteur de Régénération</WolverineHealingFactor.label>
+  <WolverineHealingFactor.stages.0.label>Class 1</WolverineHealingFactor.stages.0.label>
+  <WolverineHealingFactor.stages.1.label>Class 2</WolverineHealingFactor.stages.1.label>
+  <WolverineHealingFactor.stages.2.label>Class 3</WolverineHealingFactor.stages.2.label>
+  <WolverineHealingFactor.stages.3.label>Class 4</WolverineHealingFactor.stages.3.label>
+  <WolverineHealingFactor.stages.4.label>Class X</WolverineHealingFactor.stages.4.label>
+
+
+  <!-- Proto bodypart -->
+
+  <WolverineProtoBodypart.label>recroissance</WolverineProtoBodypart.label>
+
+
+  <!-- Dummy Hediff used to replace MissingPart Hediff -->
+
+  <WolverineCuredBodypart.label>partie du corps soignée</WolverineCuredBodypart.label>
+
+
+</LanguageData>

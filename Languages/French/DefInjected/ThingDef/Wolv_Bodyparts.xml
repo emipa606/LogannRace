@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Tail.label>queue</Tail.label>
+  <Tail.description>Une queue.</Tail.description>
+
+  <RTail.label>queue</RTail.label>
+  <RTail.description>Une queue Wolvx.</RTail.description>
+
+  <BionicWolvxTail.label>Queue Wolvx Bionique</BionicWolvxTail.label>
+  <BionicWolvxTail.description>Une révolution technique! L'emploie de systèmes nerveux biologique avec un retour d'information semi-biologique et informatique permmettent à des gyroscope d'octroyer à l'utilisateur des mouvements accrus et une meilleur dextérité! Fabuleux! Quel Progrès!</BionicWolvxTail.description>
+
+  <ClothTail.label>Queue en tissu</ClothTail.label>
+  <ClothTail.description>Une simple prothèse qui va remplacer une queue manquante, c'est toujours mieux que rien...</ClothTail.description>
+
+
+</LanguageData>

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <NamerPersonWolvxMale.rulePack.rulesStrings.0>name->[WolvxMfirst] [Wolvxlast]</NamerPersonWolvxMale.rulePack.rulesStrings.0>
+  <NamerPersonWolvxMale.rulePack.rulesStrings.1>name->[badasswx] [Wolvxfirst]</NamerPersonWolvxMale.rulePack.rulesStrings.1>
+  <NamerPersonWolvxMale.rulePack.rulesStrings.2>name->[WolvxMfirst] '[badasswx]' [Wolvxlast]</NamerPersonWolvxMale.rulePack.rulesStrings.2>
+  <NamerPersonWolvxMale.rulePack.rulesStrings.3>name->[badasswx] '[nick]' [Wolvxlast]</NamerPersonWolvxMale.rulePack.rulesStrings.3>
+  <NamerPersonWolvxMale.rulePack.rulesStrings.4>name->[WolvxMfirst] '[nick]' [Wolvxlast]</NamerPersonWolvxMale.rulePack.rulesStrings.4>
+  <NamerPersonWolvxMale.rulePack.rulesStrings.5>name->[WolvxMfirst] [badasswx]</NamerPersonWolvxMale.rulePack.rulesStrings.5>
+
+  <NamerPersonWolvxFemale.rulePack.rulesStrings.0>name->[WolvxFfirst] [Wolvxlast]</NamerPersonWolvxFemale.rulePack.rulesStrings.0>
+  <NamerPersonWolvxFemale.rulePack.rulesStrings.1>name->[badasswx] [Wolvxfirst]</NamerPersonWolvxFemale.rulePack.rulesStrings.1>
+  <NamerPersonWolvxFemale.rulePack.rulesStrings.2>name->[WolvxFfirst] '[badasswx]' [Wolvxlast]</NamerPersonWolvxFemale.rulePack.rulesStrings.2>
+  <NamerPersonWolvxFemale.rulePack.rulesStrings.3>name->[WolvxFfirst] '[nick]' [Wolvxlast]</NamerPersonWolvxFemale.rulePack.rulesStrings.3>
+  <NamerPersonWolvxFemale.rulePack.rulesStrings.4>name->[WolvxFfirst] [badasswx]</NamerPersonWolvxFemale.rulePack.rulesStrings.4>
+
+  <NamerWolvBase.rulePack.rulesStrings.0>name->[Wolvbase] [Wolvother] [Wolvdesc]</NamerWolvBase.rulePack.rulesStrings.0>
+  <NamerWolvBase.rulePack.rulesStrings.1>name->[Wolvbase] [Wolvdesc]</NamerWolvBase.rulePack.rulesStrings.1>
+
+
+</LanguageData>

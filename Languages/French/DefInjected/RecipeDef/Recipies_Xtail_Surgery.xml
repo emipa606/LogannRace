@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <InstallWolvxTail.label>installer une queue Wolvx</InstallWolvxTail.label>
+  <InstallWolvxTail.description>Remplace une queue manquante ou blessée.</InstallWolvxTail.description>
+  <InstallWolvxTail.jobString>Greffe de la Queue.</InstallWolvxTail.jobString>
+
+  <RXInstallClothTail.label>installer une queue en tissu</RXInstallClothTail.label>
+  <RXInstallClothTail.description>Installer une queue en tissu.</RXInstallClothTail.description>
+  <RXInstallClothTail.jobString>Greffe d'une queue en tissu.</RXInstallClothTail.jobString>
+
+  <InstallBionicWolvxTail.label>installer une queue bionic</InstallBionicWolvxTail.label>
+  <InstallBionicWolvxTail.description>Installe une queue bionique.</InstallBionicWolvxTail.description>
+  <InstallBionicWolvxTail.jobString>Greffe d'une queue bionique.</InstallBionicWolvxTail.jobString>
+
+
+</LanguageData>

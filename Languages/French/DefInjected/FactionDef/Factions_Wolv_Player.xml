@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <WolvxPlayerColony.label>Corps d'armée X-GIS</WolvxPlayerColony.label>
+  <WolvxPlayerColony.description>Votre propore Corps d'armée X-GIS.</WolvxPlayerColony.description>
+  <WolvxPlayerColony.pawnsPlural>colons</WolvxPlayerColony.pawnsPlural>
+
+  <WolvxPlayerColonyTribal.label>Tribue de Gerre Logann</WolvxPlayerColonyTribal.label>
+  <WolvxPlayerColonyTribal.description>Logann semi-tribal start.</WolvxPlayerColonyTribal.description>
+  <WolvxPlayerColonyTribal.pawnsPlural>colons</WolvxPlayerColonyTribal.pawnsPlural>
+
+
+</LanguageData>

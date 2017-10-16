@@ -621,13 +621,42 @@
   </AlienRace.BackstoryDef>
 
       <AlienRace.BackstoryDef>
+    <defName>WolvxDeveloper</defName>
+    <title>Battlesim developer</title>
+    <titleShort>Military dev</titleShort>
+    <baseDescription>NAME has an extensive expertise in programming and tactical combat, making HIM a leading expert in BattleSim development - creating extremely effective training simulations for troops.</baseDescription>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+		<maleCommonality>20</maleCommonality>
+	<femaleCommonality>20</femaleCommonality>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <defName>Shooting</defName>
+        <amount>5</amount>
+      </li>
+      <li>
+        <defName>Crafting</defName>
+        <amount>9</amount>
+      </li>
+      <li>
+        <defName>Intellectual</defName>
+        <amount>6</amount>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>WolvxBackstory</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+
+      <AlienRace.BackstoryDef>
     <defName>WolvxCmbEngA</defName>
     <title>Army engineer</title>
     <titleShort>Army engineer</titleShort>
     <baseDescription>NAME served as a combat engineer with a major army detatchment, servicing vehicles and equipment.</baseDescription>
     <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
-		<maleCommonality>30</maleCommonality>
+		<maleCommonality>20</maleCommonality>
 	<femaleCommonality>20</femaleCommonality>
     <slot>Adulthood</slot>
     <skillGains>
@@ -656,7 +685,7 @@
     <baseDescription>NAME served as a combat engineer with a famous merc unit, servicing their vehicles and equipment.</baseDescription>
     <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
-		<maleCommonality>30</maleCommonality>
+		<maleCommonality>20</maleCommonality>
 	<femaleCommonality>20</femaleCommonality>
     <slot>Adulthood</slot>
     <skillGains>
@@ -1025,8 +1054,8 @@
     <baseDescription>NAME served as a demolitions and heavy weapons expert in a large merc unit. HECAP has an expertise in various explosives, as well as combat engineering.</baseDescription>
     <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
-		<maleCommonality>10</maleCommonality>
-	<femaleCommonality>10</femaleCommonality>
+		<maleCommonality>18</maleCommonality>
+	<femaleCommonality>18</femaleCommonality>
     <slot>Adulthood</slot>
     <skillGains>
       <li>

@@ -129,4 +129,75 @@
     </skillGains>
 </AlienRace.BackstoryDef>
 
+
+<AlienRace.BackstoryDef>
+    <defName>WolvxBJCH</defName>
+    <title>OSA agent</title>
+	<titleShort>Agent</titleShort>
+    <baseDescription>NAME truly began HIS career when HECAP was recruited by the Office of Secret Actions (OSA),investigating rumors of occult activity by the Third Reich's SS Paranormal Division.</baseDescription>
+    <slot>Childhood</slot>
+    <spawnCategories>
+      <li>WolvxBackstory</li>
+    </spawnCategories>
+	<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<maleCommonality>20</maleCommonality>
+	<femaleCommonality>20</femaleCommonality>
+    <skillGains>
+      <li>
+        <defName>Intellectual</defName>
+        <amount>6</amount>
+      </li>
+	    <li>
+        <defName>Crafting</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Cooking</defName>
+        <amount>4</amount>
+      </li>
+       <li>
+        <defName>Melee</defName>
+        <amount>4</amount>
+      </li>
+    </skillGains>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef>
+    <defName>WolvxBJAD</defName>
+    <title>Top agent</title>
+	<titleShort>OSA</titleShort>
+    <baseDescription>The missions that NAME participated in include assassinating a series of leaders of Axis bio-chemical warfare research programs, defeating various plots to use strange occult artifacts for evil ends, and eventually killing Adolf Hitler himself.
+    </baseDescription>
+    <slot>Adulthood</slot>
+    <spawnCategories>
+      <li>WolvxBackstory</li>
+    </spawnCategories>
+	<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<maleCommonality>20</maleCommonality>
+	<femaleCommonality>20</femaleCommonality>
+    <skillGains>
+      <li>
+        <defName>Intellectual</defName>
+        <amount>8</amount>
+      </li>
+	   <li>
+        <defName>Crafting</defName>
+        <amount>6</amount>
+      </li>
+	  	   <li>
+        <defName>Medicine</defName>
+        <amount>4</amount>
+      </li>
+        <li>
+        <defName>Shooting</defName>
+        <amount>6</amount>
+      </li>
+        <li>
+        <defName>Melee</defName>
+        <amount>6</amount>
+      </li>
+    </skillGains>
+</AlienRace.BackstoryDef>
+
+
 </Defs>

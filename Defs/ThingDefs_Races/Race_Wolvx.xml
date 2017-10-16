@@ -35,7 +35,7 @@
         <generalSettings>
             <MaleGenderProbability>0.51</MaleGenderProbability>
             <PawnsSpecificBackstories>true</PawnsSpecificBackstories>
-            <ImmuneToAge>true</ImmuneToAge>
+            <ImmuneToAge>false</ImmuneToAge>
             <ForcedRaceTraitEntries>
                 <li>
                     <defname>Brawler</defname>
