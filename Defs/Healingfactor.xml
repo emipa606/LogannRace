@@ -92,7 +92,7 @@
 		<maxSeverity>1.0</maxSeverity>
 		<stages>
 			<li>
-				<everVisible>false</everVisible>
+				<becomeVisible>false</becomeVisible>
 			</li>
 		</stages>
 	</HediffDef>

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<ThingDefs>
+<Defs>
 
 
   <ThingDef Name="BaseWolvxGun" Abstract="True">
@@ -166,7 +166,7 @@
 
 
 
-<ThingDef ParentName="BaseBullet">
+<ThingDef ParentName="BaseWolvxBullet">
     <defName>Bullet_WolvShotgun</defName>
     <label>shotgun blast</label>
     <graphicData>
@@ -201,9 +201,33 @@
       <AccuracyMedium>0.40</AccuracyMedium>
       <AccuracyLong>0.40</AccuracyLong>
       <RangedWeapon_Cooldown>0.36</RangedWeapon_Cooldown>
-      <MeleeWeapon_DamageAmount>13</MeleeWeapon_DamageAmount>
-      <MeleeWeapon_Cooldown>0.8</MeleeWeapon_Cooldown>
     </statBases>
+        <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>6</power>
+        <cooldownTime>1.95</cooldownTime>
+      </li>
+      <li>
+        <label>bayonet-point</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>12</power>
+        <cooldownTime>1.95</cooldownTime>
+      </li>
+      <li>
+        <label>bayonet-edge</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>14.5</power>
+        <cooldownTime>1.95</cooldownTime>
+      </li>
+    </tools>
     <costList>
       <Steel>70</Steel>
       <Component>5</Component>
@@ -212,7 +236,7 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>Bullet_WolvShotgun</projectileDef>
+        <defaultProjectile>Bullet_WolvShotgun</defaultProjectile>
         <warmupTime>2.1</warmupTime>
         <range>10</range>
         <burstShotCount>3</burstShotCount>
@@ -247,26 +271,43 @@
 	  <li>Medieval</li>
     <li>WolvWep</li>
     </weaponTags>
-    <soundInteract>InteractPistol</soundInteract>
+    <soundInteract>InteractAutopistol</soundInteract>
     <canBeSpawningInventory>true</canBeSpawningInventory>
     <tradeability>Sellable</tradeability>
     <costStuffCount>80</costStuffCount>
     <statBases>
       <WorkToMake>20000</WorkToMake>
-      <MeleeWeapon_DamageAmount>13</MeleeWeapon_DamageAmount>
-      <MeleeWeapon_Cooldown>0.8</MeleeWeapon_Cooldown>
     </statBases>
     <equippedAngleOffset>-65</equippedAngleOffset>
     <stuffCategories>
       <li>Metallic</li>
     </stuffCategories>
-    <verbs>
+    <tools>
       <li>
-        <verbClass>Verb_MeleeAttack</verbClass>
-        <hasStandardCommand>true</hasStandardCommand>
-        <meleeDamageDef>Cut</meleeDamageDef>
+        <label>handle</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>5</power>
+        <cooldownTime>1.75</cooldownTime>
       </li>
-    </verbs>
+      <li>
+        <label>point</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>14</power>
+        <cooldownTime>1.25</cooldownTime>
+      </li>
+      <li>
+        <label>edge</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>15.5</power>
+        <cooldownTime>1.25</cooldownTime>
+      </li>
+    </tools>
 	<smeltProducts>
 		<Steel>5</Steel>
 	</smeltProducts>	
@@ -289,26 +330,43 @@
 	  <li>Medieval</li>
     <li>WolvWep</li>
     </weaponTags>
-    <soundInteract>InteractPistol</soundInteract>
+    <soundInteract>InteractAutopistol</soundInteract>
     <canBeSpawningInventory>true</canBeSpawningInventory>
     <tradeability>Sellable</tradeability>
     <costStuffCount>80</costStuffCount>
     <statBases>
       <WorkToMake>20000</WorkToMake>
-      <MeleeWeapon_DamageAmount>23</MeleeWeapon_DamageAmount>
-      <MeleeWeapon_Cooldown>1.8</MeleeWeapon_Cooldown>
     </statBases>
     <equippedAngleOffset>-65</equippedAngleOffset>
     <stuffCategories>
       <li>Metallic</li>
     </stuffCategories>
-    <verbs>
+    <tools>
       <li>
-        <verbClass>Verb_MeleeAttack</verbClass>
-        <hasStandardCommand>true</hasStandardCommand>
-        <meleeDamageDef>Cut</meleeDamageDef>
+        <label>handle</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>1.95</cooldownTime>
       </li>
-    </verbs>
+      <li>
+        <label>point</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>12</power>
+        <cooldownTime>1.95</cooldownTime>
+      </li>
+      <li>
+        <label>edge</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>17.5</power>
+        <cooldownTime>1.95</cooldownTime>
+      </li>
+    </tools>
 	<smeltProducts>
 		<Steel>5</Steel>
 	</smeltProducts>	
@@ -329,26 +387,34 @@
 	  <li>Medieval</li>
     <li>WolvWep</li>
     </weaponTags>
-    <soundInteract>InteractPistol</soundInteract>
+    <soundInteract>InteractAutopistol</soundInteract>
     <canBeSpawningInventory>true</canBeSpawningInventory>
     <tradeability>Sellable</tradeability>
     <costStuffCount>80</costStuffCount>
     <statBases>
       <WorkToMake>20000</WorkToMake>
-      <MeleeWeapon_DamageAmount>13</MeleeWeapon_DamageAmount>
-      <MeleeWeapon_Cooldown>0.8</MeleeWeapon_Cooldown>
     </statBases>
     <equippedAngleOffset>-65</equippedAngleOffset>
     <stuffCategories>
       <li>Metallic</li>
     </stuffCategories>
-    <verbs>
+      <tools>
       <li>
-        <verbClass>Verb_MeleeAttack</verbClass>
-        <hasStandardCommand>true</hasStandardCommand>
-        <meleeDamageDef>Blunt</meleeDamageDef>
+        <label>handle</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2.0</cooldownTime>
       </li>
-    </verbs>
+      <li>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>18.3</power>
+        <cooldownTime>2.0</cooldownTime>
+      </li>
+    </tools>
 	<smeltProducts>
 		<Steel>5</Steel>
 	</smeltProducts>	
@@ -369,29 +435,46 @@
 	  <li>Medieval</li>
     <li>WolvWep</li>
     </weaponTags>
-    <soundInteract>InteractPistol</soundInteract>
+    <soundInteract>InteractAutopistol</soundInteract>
     <canBeSpawningInventory>true</canBeSpawningInventory>
     <tradeability>Sellable</tradeability>
     <costStuffCount>80</costStuffCount>
     <statBases>
       <WorkToMake>20000</WorkToMake>
-      <MeleeWeapon_DamageAmount>14</MeleeWeapon_DamageAmount>
-      <MeleeWeapon_Cooldown>0.9</MeleeWeapon_Cooldown>
     </statBases>
     <equippedAngleOffset>-65</equippedAngleOffset>
     <stuffCategories>
       <li>Metallic</li>
     </stuffCategories>
-    <verbs>
+    <tools>
       <li>
-        <verbClass>Verb_MeleeAttack</verbClass>
-        <hasStandardCommand>true</hasStandardCommand>
-        <meleeDamageDef>Cut</meleeDamageDef>
+        <label>handle</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>6</power>
+        <cooldownTime>2.5</cooldownTime>
       </li>
-    </verbs>
+      <li>
+        <label>point</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>16</power>
+        <cooldownTime>2.5</cooldownTime>
+      </li>
+      <li>
+        <label>edge</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>21</power>
+        <cooldownTime>2.5</cooldownTime>
+      </li>
+    </tools>
 	<smeltProducts>
 		<Steel>5</Steel>
 	</smeltProducts>	
   </ThingDef>
 
-</ThingDefs>
+</Defs>

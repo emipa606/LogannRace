@@ -15,7 +15,9 @@
     <isPlayer>true</isPlayer>
     <basicMemberKind>Wolvx</basicMemberKind>
     <pawnsPlural>colonists</pawnsPlural>
-    <factionNameMaker>NamerWolvBase</factionNameMaker>
+    <baseNameMaker>NamerFactionBasePlayerColony</baseNameMaker>
+		<baseNameMakerPlayer>NamerFactionPlayerColonyRandomized</baseNameMakerPlayer>
+		<factionNameMakerPlayer>NamerFactionBasePlayerColonyRandomized</factionNameMakerPlayer>
     <techLevel>Ultra</techLevel>
     <backstoryCategory>WolvxBackstory</backstoryCategory>
     <homeIconPath>World/WolvxBaseIcon</homeIconPath>
@@ -39,7 +41,9 @@
     <description>Logann semi-tribal start.</description>
     <isPlayer>true</isPlayer>
     <basicMemberKind>Wolvx</basicMemberKind>
-    <factionNameMaker>NamerWolvBase</factionNameMaker>
+    <baseNameMaker>NamerFactionBasePlayerColony</baseNameMaker>
+		<baseNameMakerPlayer>NamerFactionPlayerColonyRandomized</baseNameMakerPlayer>
+		<factionNameMakerPlayer>NamerFactionBasePlayerColonyRandomized</factionNameMakerPlayer>
     <pawnsPlural>colonists</pawnsPlural>
     <techLevel>Neolithic</techLevel>
     <backstoryCategory>WolvxBackstory</backstoryCategory>

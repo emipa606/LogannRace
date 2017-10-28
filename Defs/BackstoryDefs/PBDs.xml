@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<PawnBioDefs>
+<Defs>
 <AlienRace.PawnBioDef>
     <defName>WolvBioDutch</defName>
     <childhoodDef>WolvxDutchCH</childhoodDef> 
@@ -50,4 +50,4 @@
     <factionLeader>false</factionLeader>
 </AlienRace.PawnBioDef>
 
-</PawnBioDefs>
+</Defs>
