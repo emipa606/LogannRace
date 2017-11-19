@@ -95,7 +95,7 @@
     <tickerType>Never</tickerType>
     <techLevel>Industrial</techLevel>
     <weaponTags>
-		<li>Melee</li>
+		<li>WolvMelee</li>
     </weaponTags>
     <thingCategories>
       <li>WeaponsMelee</li>
@@ -201,6 +201,7 @@
       <AccuracyMedium>0.40</AccuracyMedium>
       <AccuracyLong>0.40</AccuracyLong>
       <RangedWeapon_Cooldown>0.36</RangedWeapon_Cooldown>
+      <Weapon_Bulk>1.0</Weapon_Bulk>
     </statBases>
         <tools>
       <li>
@@ -245,11 +246,6 @@
         <soundCastTail>GunTail_Heavy</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
       </li>
-      <li>
-        <verbClass>Verb_MeleeAttack</verbClass>
-        <hasStandardCommand>true</hasStandardCommand>
-        <meleeDamageDef>Cut</meleeDamageDef>
-      </li>
     </verbs>
   </ThingDef>
 
@@ -266,7 +262,7 @@
     </graphicData>
     <techLevel>Medieval</techLevel>
     <weaponTags>
-	  <li>Melee</li>
+	  <li>WolvMelee</li>
     <li>Industrial</li>
 	  <li>Medieval</li>
     <li>WolvWep</li>
@@ -325,7 +321,7 @@
     </graphicData>
     <techLevel>Medieval</techLevel>
     <weaponTags>
-	  <li>Melee</li>
+	  <li>WolvMelee</li>
     <li>Industrial</li>
 	  <li>Medieval</li>
     <li>WolvWep</li>
@@ -382,7 +378,7 @@
     </graphicData>
     <techLevel>Medieval</techLevel>
     <weaponTags>
-	  <li>Melee</li>
+	  <li>WolvMelee</li>
     <li>Industrial</li>
 	  <li>Medieval</li>
     <li>WolvWep</li>
@@ -430,7 +426,7 @@
     </graphicData>
     <techLevel>Medieval</techLevel>
     <weaponTags>
-	  <li>Melee</li>
+	  <li>WolvMelee</li>
     <li>Industrial</li>
 	  <li>Medieval</li>
     <li>WolvWep</li>

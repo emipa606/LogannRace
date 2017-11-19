@@ -337,7 +337,7 @@
     </weaponMoney>
     <weaponTags>
 	   <li>WolvWep</li>
-      <li>Melee</li>
+      <li>WolvMelee</li>
     </weaponTags>
     <techHediffsMoney>
       <min>2000</min>

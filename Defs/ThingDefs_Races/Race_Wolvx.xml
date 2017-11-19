@@ -36,9 +36,9 @@
     <description>A robust race of fighters, the Logann boast an uncanny regeneration factor.</description>
     <alienRace>
         <generalSettings>
-            <MaleGenderProbability>0.51</MaleGenderProbability>
-            <PawnsSpecificBackstories>true</PawnsSpecificBackstories>
-            <ImmuneToAge>false</ImmuneToAge>
+            <maleGenderProbability>0.51</maleGenderProbability>
+            <pawnsSpecificBackstories>true</pawnsSpecificBackstories>
+            <immuneToAge>false</immuneToAge>
             <forcedRaceTraitEntries>
                 <li>
                     <defname>Brawler</defname>
@@ -62,6 +62,7 @@
                 <li>Male</li>
                 <li>Female</li>
                 </alienbodytypes>
+                <useGenderedHeads>true</useGenderedHeads>
             <alienskincolorgen Class="ColorGenerator_Options">
             <options>
              <li>
@@ -151,7 +152,7 @@
             <li>
 				<path>Things/Wolvx/Tails/WTail</path>
                 <bodyPart>Tail</bodyPart>
-                <UseSkinColor>true</UseSkinColor>
+                <useSkinColor>true</useSkinColor>
                 <inFrontOfBody>false</inFrontOfBody>
                 <offsets>
                 <front>
@@ -190,7 +191,7 @@
             </li>
         </graphicPaths>
         <hairSettings>
-            <HasHair>false</HasHair>
+            <hasHair>false</hasHair>
         </hairSettings>
         <pawnKindSettings>
             <alienslavekinds>
@@ -283,7 +284,7 @@
        <AnimalGatherSpeed>1.1</AnimalGatherSpeed>
        <AnimalGatherYield>1.1</AnimalGatherYield>
     </statBases>
-       <tools>
+    <tools>
       <li>
         <label>left fist</label>
         <capacities>
@@ -334,7 +335,7 @@
       <thinkTreeConstant>HumanlikeConstant</thinkTreeConstant>
       <intelligence>Humanlike</intelligence>
       <makesFootprints>true</makesFootprints>
-      <lifeExpectancy>5000</lifeExpectancy>
+      <lifeExpectancy>2000</lifeExpectancy>
       <leatherColor>(230, 230, 230)</leatherColor>
       <leatherCommonalityFactor>0.001</leatherCommonalityFactor>
       <leatherInsulation>0.70</leatherInsulation>
@@ -344,8 +345,8 @@
       <body>Wolvx</body>
       <bloodDef>FilthBloodWolvx</bloodDef>	
       <meatColor>(0, 0, 128)</meatColor>
-      <baseBodySize>1.5</baseBodySize>
-      <baseHealthScale>2</baseHealthScale>
+      <baseBodySize>1.1</baseBodySize>
+      <baseHealthScale>2.3</baseHealthScale>
       <foodType>OmnivoreHuman</foodType>
       <gestationPeriodDays>45</gestationPeriodDays>
       <litterSizeCurve>

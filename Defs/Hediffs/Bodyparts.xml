@@ -3,7 +3,7 @@
 
   <HediffDef ParentName="AddedBodyPartBase">
     <defName>BionicWolvxTail</defName>
-    <label>bionic Wolvx tail</label>
+    <label>bionic Logann tail</label>
     <spawnThingOnRemoved>BionicWolvxTail</spawnThingOnRemoved>
     <addedPartProps>
       <isBionic>true</isBionic>

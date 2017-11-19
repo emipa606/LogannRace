@@ -41,6 +41,7 @@
     <description>Logann semi-tribal start.</description>
     <isPlayer>true</isPlayer>
     <basicMemberKind>Wolvx</basicMemberKind>
+     <factionNameMaker>NamerFactionOutlander</factionNameMaker>
     <baseNameMaker>NamerFactionBasePlayerColony</baseNameMaker>
 		<baseNameMakerPlayer>NamerFactionPlayerColonyRandomized</baseNameMakerPlayer>
 		<factionNameMakerPlayer>NamerFactionBasePlayerColonyRandomized</factionNameMakerPlayer>
@@ -49,6 +50,7 @@
     <backstoryCategory>WolvxBackstory</backstoryCategory>
     <homeIconPath>World/WolvxBaseIcon</homeIconPath>
     <expandingIconTexture>World/WolvxBaseIcon</expandingIconTexture>
+    	<geneticVariance>1</geneticVariance>
     <startingResearchTags>
       <li>TribalStart</li>
     </startingResearchTags>
