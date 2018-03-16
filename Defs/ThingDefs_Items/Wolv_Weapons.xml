@@ -76,6 +76,7 @@
   <ThingDef Name="BaseWolvMeleeWeapon" Abstract="True">
     <category>Item</category>
     <thingClass>ThingWithComps</thingClass>
+    <smeltable>true</smeltable>
     <equipmentType>Primary</equipmentType>
     <pathCost>10</pathCost>
     <useHitPoints>True</useHitPoints>
@@ -304,9 +305,6 @@
         <cooldownTime>1.25</cooldownTime>
       </li>
     </tools>
-	<smeltProducts>
-		<Steel>5</Steel>
-	</smeltProducts>	
   </ThingDef>
 
 
@@ -363,9 +361,6 @@
         <cooldownTime>1.95</cooldownTime>
       </li>
     </tools>
-	<smeltProducts>
-		<Steel>5</Steel>
-	</smeltProducts>	
   </ThingDef>
 
     <ThingDef ParentName="BaseMeleeWeapon_WBlunt">
@@ -411,9 +406,6 @@
         <cooldownTime>2.0</cooldownTime>
       </li>
     </tools>
-	<smeltProducts>
-		<Steel>5</Steel>
-	</smeltProducts>	
   </ThingDef>
 
   <ThingDef ParentName="BaseMeleeWeapon_WSharp">
@@ -468,9 +460,6 @@
         <cooldownTime>2.5</cooldownTime>
       </li>
     </tools>
-	<smeltProducts>
-		<Steel>5</Steel>
-	</smeltProducts>	
   </ThingDef>
 
 </Defs>
