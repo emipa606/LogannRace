@@ -4,7 +4,7 @@
     <defName>WolvxDutchCH</defName>
     <title>Rescue commando</title>
 	<titleShort>Rescue-cmd</titleShort>
-    <baseDescription>NAME and HIS team were recognized as the very best for hostile extractions. HECAP has led operations to rescue military brass, political figures, and civilians.</baseDescription>
+    <baseDescription>[PAWN_nameDef] and [PAWN_possessive] team were recognized as the very best for hostile extractions. [PAWN_pronoun] has led operations to rescue military brass, political figures, and civilians.</baseDescription>
     <slot>Childhood</slot>
     <spawnCategories>
       <li>WolvxBackstory</li>
@@ -29,11 +29,13 @@
     <defName>WolvxDutchAD</defName>
     <title>Alien fighter</title>
 	<titleShort>Predator</titleShort>
-    <baseDescription>Life changed for NAME when HIS team was targeted by a strange, powerful alien hunter. It decimated most of his unit, before NAME defeated it in hand-to-hand combat.
+    <baseDescription>Life changed for [PAWN_nameDef] when [PAWN_possessive] team was targeted by a strange, powerful alien hunter. It decimated most of his unit, before [PAWN_nameDef] defeated it in hand-to-hand combat.
     </baseDescription>
     <slot>Adulthood</slot>
 	<maleCommonality>20</maleCommonality>
 	<femaleCommonality>1</femaleCommonality>
+  <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
     <spawnCategories>
       <li>WolvxBackstory</li>
     </spawnCategories>
@@ -62,13 +64,15 @@
     <defName>WolvxFuryCH</defName>
     <title>Soldier and agent</title>
 	<titleShort>Agent</titleShort>
-    <baseDescription>NAME began HIS career leading a small strike force of commandos on multiple successful strike missions. HECAP was then recruited by the Logann Office of Strategic Services, and further trained and sent on many more missions of infiltration and intrigue.</baseDescription>
+    <baseDescription>[PAWN_nameDef] began [PAWN_possessive] career leading a small strike force of commandos on multiple successful strike missions. [PAWN_pronoun] was then recruited by the Logann Office of Strategic Services, and further trained and sent on many more missions of infiltration and intrigue.</baseDescription>
     <slot>Childhood</slot>
     <spawnCategories>
       <li>WolvxBackstory</li>
     </spawnCategories>
 		<maleCommonality>20</maleCommonality>
 	<femaleCommonality>1</femaleCommonality>
+  <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
     <skillGains>
       <li>
         <defName>Intellectual</defName>
@@ -93,7 +97,7 @@
     <defName>WolvxFuryAD</defName>
     <title>SWORD director</title>
 	<titleShort>SWORD</titleShort>
-    <baseDescription>NAME eventually became head of the mysterious organization known as SWORD - a vast covert agency devoted to protecting the Logann people secretly.
+    <baseDescription>[PAWN_nameDef] eventually became head of the mysterious organization known as SWORD - a vast covert agency devoted to protecting the Logann people secretly.
     </baseDescription>
     <slot>Adulthood</slot>
     <spawnCategories>
@@ -101,6 +105,8 @@
     </spawnCategories>
 		<maleCommonality>20</maleCommonality>
 	<femaleCommonality>1</femaleCommonality>
+   <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
     <skillGains>
       <li>
         <defName>Intellectual</defName>
@@ -130,13 +136,15 @@
     <defName>WolvxBJCH</defName>
     <title>OSA agent</title>
 	<titleShort>Agent</titleShort>
-    <baseDescription>NAME truly began HIS career when HECAP was recruited by the Office of Secret Actions (OSA),investigating rumors of occult activity by the Third Reich's SS Paranormal Division.</baseDescription>
+    <baseDescription>[PAWN_nameDef] truly began [PAWN_possessive] career when [PAWN_pronoun] was recruited by the Office of Secret Actions (OSA),investigating rumors of occult activity by the Third Reich's SS Paranormal Division.</baseDescription>
     <slot>Childhood</slot>
     <spawnCategories>
       <li>WolvxBackstory</li>
     </spawnCategories>
 		<maleCommonality>20</maleCommonality>
 	<femaleCommonality>1</femaleCommonality>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
     <skillGains>
       <li>
         <defName>Intellectual</defName>
@@ -161,7 +169,7 @@
     <defName>WolvxBJAD</defName>
     <title>Top agent</title>
 	<titleShort>OSA</titleShort>
-    <baseDescription>The missions that NAME participated in include assassinating a series of leaders of Axis bio-chemical warfare research programs, defeating various plots to use strange occult artifacts for evil ends, and eventually killing Adolf Hitler himself.
+    <baseDescription>The missions that [PAWN_nameDef] participated in include assassinating a series of leaders of Axis bio-chemical warfare research programs, defeating various plots to use strange occult artifacts for evil ends, and eventually killing Adolf Hitler himself.
     </baseDescription>
     <slot>Adulthood</slot>
     <spawnCategories>
@@ -169,6 +177,8 @@
     </spawnCategories>
 		<maleCommonality>20</maleCommonality>
 	<femaleCommonality>1</femaleCommonality>
+  <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
     <skillGains>
       <li>
         <defName>Intellectual</defName>

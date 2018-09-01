@@ -38,7 +38,7 @@
         <compClass>CompQuality</compClass>
       </li>
       <li Class="CompProperties_Art">
-        <nameMaker>ArtName_WeaponGun</nameMaker>
+        <nameMaker>NamerArtWeaponGun</nameMaker>
         <descriptionMaker>ArtDescription_WeaponGun</descriptionMaker>
         <minQualityForArtistic>Excellent</minQualityForArtistic>
       </li>
@@ -90,6 +90,7 @@
       <Flammability>1.0</Flammability>
       <DeteriorationRate>1</DeteriorationRate>
       <SellPriceFactor>0.5</SellPriceFactor>
+      <Mass>1</Mass>
     </statBases>
     <altitudeLayer>Item</altitudeLayer>
     <alwaysHaulable>True</alwaysHaulable>
@@ -110,7 +111,7 @@
         <compClass>CompQuality</compClass>
       </li>
       <li Class="CompProperties_Art">
-        <nameMaker>ArtName_WeaponMelee</nameMaker>
+        <nameMaker>NamerArtWeaponMelee</nameMaker>
         <descriptionMaker>ArtDescription_WeaponMelee</descriptionMaker>
         <minQualityForArtistic>Excellent</minQualityForArtistic>
       </li>
@@ -139,11 +140,11 @@
       <categories>
         <li>Root</li>
       </categories>
-      <exceptedThingDefs>
+      <disallowedThingDefs>
         <li>Silver</li>
         <li>Gold</li>
         <li>WoodLog</li>
-      </exceptedThingDefs>
+      </disallowedThingDefs>
     </defaultIngredientFilter>
     </recipeMaker>
   </ThingDef>
@@ -154,10 +155,10 @@
         <categories>
           <li>Root</li>
         </categories>
-        <exceptedThingDefs>
+        <disallowedThingDefs>
           <li>Silver</li>
           <li>Gold</li>
-        </exceptedThingDefs>
+        </disallowedThingDefs>
       </defaultIngredientFilter>
     </recipeMaker>
   </ThingDef>
@@ -189,7 +190,7 @@
       <texPath>Things/Weps/AW12x</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>InteractShotgun</soundInteract>
+    <soundInteract>Interact_Shotgun</soundInteract>
 		<generateCommonality>0.3</generateCommonality>
     <weaponTags>
     <li>WolvWep</li>
@@ -202,7 +203,6 @@
       <AccuracyMedium>0.40</AccuracyMedium>
       <AccuracyLong>0.40</AccuracyLong>
       <RangedWeapon_Cooldown>0.36</RangedWeapon_Cooldown>
-      <Weapon_Bulk>1.0</Weapon_Bulk>
     </statBases>
         <tools>
       <li>
@@ -232,7 +232,7 @@
     </tools>
     <costList>
       <Steel>70</Steel>
-      <Component>5</Component>
+      <ComponentIndustrial>5</ComponentIndustrial>
     </costList>
     <verbs>
       <li>
@@ -243,7 +243,7 @@
         <range>10</range>
         <burstShotCount>3</burstShotCount>
         <ticksBetweenBurstShots>12</ticksBetweenBurstShots>
-        <soundCast>ShotShotgun</soundCast>
+        <soundCast>Shot_Shotgun</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
       </li>
@@ -268,8 +268,7 @@
 	  <li>Medieval</li>
     <li>WolvWep</li>
     </weaponTags>
-    <soundInteract>InteractAutopistol</soundInteract>
-    <canBeSpawningInventory>true</canBeSpawningInventory>
+    <soundInteract>Interact_Autopistol</soundInteract>
     <tradeability>Sellable</tradeability>
     <costStuffCount>80</costStuffCount>
     <statBases>
@@ -324,8 +323,7 @@
 	  <li>Medieval</li>
     <li>WolvWep</li>
     </weaponTags>
-    <soundInteract>InteractAutopistol</soundInteract>
-    <canBeSpawningInventory>true</canBeSpawningInventory>
+    <soundInteract>Interact_Autopistol</soundInteract>
     <tradeability>Sellable</tradeability>
     <costStuffCount>80</costStuffCount>
     <statBases>
@@ -378,8 +376,7 @@
 	  <li>Medieval</li>
     <li>WolvWep</li>
     </weaponTags>
-    <soundInteract>InteractAutopistol</soundInteract>
-    <canBeSpawningInventory>true</canBeSpawningInventory>
+    <soundInteract>Interact_Autopistol</soundInteract>
     <tradeability>Sellable</tradeability>
     <costStuffCount>80</costStuffCount>
     <statBases>
@@ -423,8 +420,7 @@
 	  <li>Medieval</li>
     <li>WolvWep</li>
     </weaponTags>
-    <soundInteract>InteractAutopistol</soundInteract>
-    <canBeSpawningInventory>true</canBeSpawningInventory>
+    <soundInteract>Interact_Autopistol</soundInteract>
     <tradeability>Sellable</tradeability>
     <costStuffCount>80</costStuffCount>
     <statBases>

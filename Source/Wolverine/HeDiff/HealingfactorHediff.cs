@@ -91,7 +91,7 @@ namespace Wolverine
         public void TryHealWounds()
         {
             IEnumerable<Hediff> wounds = (from hd in pawn.health.hediffSet.hediffs
-                                          where hd is Hediff_Injury && !hd.IsOld()
+                                          where hd is Hediff_Injury && !hd.IsTended()
                                           select hd);
 
             if (wounds != null)
@@ -110,7 +110,7 @@ namespace Wolverine
         {
             Hediff hediff;
             if (!(from hd in pawn.health.hediffSet.hediffs
-                  where hd.IsOld()
+                  where hd.IsTended()
                   select hd).TryRandomElement(out hediff))
             {
                 return;
@@ -139,7 +139,7 @@ namespace Wolverine
 
                         //Equivalent to Glitterworld Medicine.
                         hediffComp_TendDuration.tendQuality = 2.0f;                    //Sets the tending quality.
-                        hediffComp_TendDuration.tendTick = Find.TickManager.TicksGame; //Sets the last tend tick.
+                        hediffComp_TendDuration.tendTicksLeft = Find.TickManager.TicksGame; //Sets the last tend tick.
 
                         pawn.health.Notify_HediffChanged(wound);
                     }

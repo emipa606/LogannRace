@@ -1,0 +1,5 @@
+F:\Steam\steamapps\common\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\WolverineRace\Assemblies\Wolverine.dll
+F:\Steam\steamapps\common\RimWorld\Mods\WolverineRace\Source\Wolverine\obj\Release\Wolverine.csprojAssemblyReference.cache
+F:\Steam\steamapps\common\RimWorld\Mods\WolverineRace\Source\Wolverine\obj\Release\Wolverine.csproj.CoreCompileInputs.cache
+F:\Steam\steamapps\common\RimWorld\Mods\WolverineRace\Source\Wolverine\obj\Release\Wolverine.csproj.CopyComplete
+F:\Steam\steamapps\common\RimWorld\Mods\WolverineRace\Source\Wolverine\obj\Release\Wolverine.dll

@@ -51,7 +51,7 @@
 		<defaultLabelColor>(0.59, 0.92, 0.69)</defaultLabelColor>
 		<isBad>false</isBad>
 		<addedPartProps>
-			<!-- isSolid>true</isSolid -->
+			<!-- solid>true</isSolid -->
 			<partEfficiency>0.1</partEfficiency>
 		</addedPartProps>
 		<initialSeverity>0.0</initialSeverity>

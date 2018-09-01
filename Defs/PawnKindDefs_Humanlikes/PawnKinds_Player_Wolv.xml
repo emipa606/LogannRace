@@ -14,7 +14,9 @@
     <defName>Wolvx</defName>
     <label>colonist</label>
     <defaultFactionType>WolvxPlayerColony</defaultFactionType>
-    <backstoryCategory>WolvxBackstory</backstoryCategory>
+    <backstoryCategories>
+			<li>WolvxBackstory</li>
+  	</backstoryCategories>
     <apparelTags>
       <li>Spacer</li>
     </apparelTags>

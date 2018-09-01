@@ -5,7 +5,7 @@
     <defName>WolvxSpyKid</defName>
     <title>Operative trainee</title>
 	<titleShort>Op-trainee</titleShort>
-    <baseDescription>NAME was trained for specialization in infiltration and sabotage operations.</baseDescription>
+    <baseDescription>[PAWN_nameDef] was trained for specialization in infiltration and sabotage operations.</baseDescription>
     <slot>Childhood</slot>
 	<bodyTypeMale>Male</bodyTypeMale>
   <bodyTypeFemale>Female</bodyTypeFemale>
@@ -39,7 +39,7 @@
     <defName>WolvxToughkid</defName>
     <title>Marksman trainee</title>
 	  <titleShort>Mk-trainee</titleShort>
-    <baseDescription>NAME had superior hand-eye coordination and sharp eyesight, so HECAP was trained for advanced marksmanship and scouting as a potential detatched sniper or dedicated marksman.</baseDescription>
+    <baseDescription>[PAWN_nameDef] had superior hand-eye coordination and sharp eyesight, so [PAWN_pronoun] was trained for advanced marksmanship and scouting as a potential detatched sniper or dedicated marksman.</baseDescription>
     <slot>Childhood</slot>
     <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
@@ -58,7 +58,7 @@
         <amount>4</amount>
       </li>
 	   <li>
-        <defName>Growing</defName>
+        <defName>Plants</defName>
         <amount>2</amount>
       </li>
       <li>
@@ -76,7 +76,7 @@
     <defName>WolvxEngineer</defName>
     <title>Combat engineer trainee</title>
 	<titleShort>Eng-trainee</titleShort>
-    <baseDescription>NAME was trained as a combat engineer - Repairing combat vehicles and demolishing enemy structures, as well as vehicle crew operations.</baseDescription>
+    <baseDescription>[PAWN_nameDef] was trained as a combat engineer - Repairing combat vehicles and demolishing enemy structures, as well as vehicle crew operations.</baseDescription>
     <slot>Childhood</slot>
     <spawnCategories>
       <li>WolvxBackstory</li>
@@ -105,7 +105,7 @@
     <defName>WolvxCuriouskid</defName>
     <title>Officer trainee</title>
 	<titleShort>Off-trainee</titleShort>
-    <baseDescription>NAME was trained as an officer candidate, specializing in large unit tactics.</baseDescription>
+    <baseDescription>[PAWN_nameDef] was trained as an officer candidate, specializing in large unit tactics.</baseDescription>
     <slot>Childhood</slot>
     <spawnCategories>
       <li>WolvxBackstory</li>
@@ -132,7 +132,7 @@
         <amount>3</amount>
       </li>
        <li>
-        <defName>Growing</defName>
+        <defName>Plants</defName>
         <amount>3</amount>
       </li>
       <li>
@@ -146,7 +146,7 @@
     <defName>WolvxSpacer</defName>
     <title>Starfighter pilot trainee</title>
     <titleShort>SP-trainee</titleShort>
-    <baseDescription>NAME was trained in advanced starfighter piloting, and various survival and combat techniques.</baseDescription>
+    <baseDescription>[PAWN_nameDef] was trained in advanced starfighter piloting, and various survival and combat techniques.</baseDescription>
     <slot>Childhood</slot>
 	  <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
@@ -169,7 +169,7 @@
         <amount>3</amount>
       </li>
       <li>
-        <defName>Growing</defName>
+        <defName>Plants</defName>
         <amount>3</amount>
       </li>
       <li>
@@ -183,7 +183,7 @@
     <defName>WolvxCmd1x</defName>
     <title>Commando trainee</title>
     <titleShort>CD-trainee</titleShort>
-    <baseDescription>NAME was trained for commando strikes as a member of a small unit. HECAP has been through extensive combat and survival training.</baseDescription>
+    <baseDescription>[PAWN_nameDef] was trained for commando strikes as a member of a small unit. [PAWN_pronoun] has been through extensive combat and survival training.</baseDescription>
     <slot>Childhood</slot>
     <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
@@ -219,7 +219,7 @@
     <defName>WolvxCmd2x</defName>
     <title>Commando trainee</title>
     <titleShort>CD-trainee</titleShort>
-    <baseDescription>NAME was trained for commando strikes as a member of a small unit. HECAP has been through extensive combat and survival training.</baseDescription>
+    <baseDescription>[PAWN_nameDef] was trained for commando strikes as a member of a small unit. [PAWN_pronoun] has been through extensive combat and survival training.</baseDescription>
     <slot>Childhood</slot>
     <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
@@ -255,7 +255,7 @@
     <defName>WolvxColonyKid</defName>
     <title>Combat medic trainee</title>
     <titleShort>CM-trainee</titleShort>
-    <baseDescription>NAME was trained as a combat medic, and can perform life-saving operations in the field.</baseDescription>
+    <baseDescription>[PAWN_nameDef] was trained as a combat medic, and can perform life-saving operations in the field.</baseDescription>
     <slot>Childhood</slot>
 	<bodyTypeMale>Male</bodyTypeMale>
   <bodyTypeFemale>Female</bodyTypeFemale>
@@ -271,7 +271,7 @@
         <amount>1</amount>
       </li>
       <li>
-        <defName>Growing</defName>
+        <defName>Plants</defName>
         <amount>2</amount>
       </li>
       <li>
@@ -292,7 +292,7 @@
     <defName>WolvxCoreKid</defName>
     <title>Infantry trainee</title>
     <titleShort>I-Trainee</titleShort>
-    <baseDescription>NAME was trained for infantry deployment as part of a large unit.</baseDescription>
+    <baseDescription>[PAWN_nameDef] was trained for infantry deployment as part of a large unit.</baseDescription>
     <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
 		<maleCommonality>90</maleCommonality>
@@ -304,7 +304,7 @@
         <amount>2</amount>
       </li>
 	  <li>
-        <defName>Growing</defName>
+        <defName>Plants</defName>
         <amount>4</amount>
       </li>
       <li>
@@ -321,7 +321,7 @@
     <defName>WolvxDigKid</defName>
     <title>Marine trainee</title>
     <titleShort>M-trainee</titleShort>
-    <baseDescription>NAME was trained for amphibious operations - recieving general infantry combat training, as well as special training for diving and aquatic operations.</baseDescription>
+    <baseDescription>[PAWN_nameDef] was trained for amphibious operations - recieving general infantry combat training, as well as special training for diving and aquatic operations.</baseDescription>
 	<bodyTypeMale>Male</bodyTypeMale>
   <bodyTypeFemale>Female</bodyTypeFemale>
   <maleCommonality>20</maleCommonality>
@@ -329,7 +329,7 @@
 	<slot>Childhood</slot>
     <skillGains>
       <li>
-        <defName>Growing</defName>
+        <defName>Plants</defName>
         <amount>4</amount>
       </li>
 	  <li>
@@ -350,7 +350,7 @@
     <defName>WolvxCityKid</defName>
     <title>Comms specialist trainee</title>
     <titleShort>Comm-trainee</titleShort>
-    <baseDescription>NAME was trained as a communications specialist - able to jam enemy communications, or break through enemy jamming to maintain contact.</baseDescription>
+    <baseDescription>[PAWN_nameDef] was trained as a communications specialist - able to jam enemy communications, or break through enemy jamming to maintain contact.</baseDescription>
     <slot>Childhood</slot>
 	<bodyTypeMale>Male</bodyTypeMale>
   <bodyTypeFemale>Female</bodyTypeFemale>
@@ -383,7 +383,7 @@
     <defName>WolvxInf1x</defName>
     <title>Infantry trainee</title>
     <titleShort>I-Trainee</titleShort>
-    <baseDescription>NAME was trained for infantry deployment as part of a large unit.</baseDescription>
+    <baseDescription>[PAWN_nameDef] was trained for infantry deployment as part of a large unit.</baseDescription>
     <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
 		<maleCommonality>90</maleCommonality>
@@ -395,7 +395,7 @@
         <amount>2</amount>
       </li>
 	  <li>
-        <defName>Growing</defName>
+        <defName>Plants</defName>
         <amount>4</amount>
       </li>
       <li>
@@ -412,7 +412,7 @@
     <defName>WolvxInf2x</defName>
     <title>Infantry trainee</title>
     <titleShort>I-Trainee</titleShort>
-    <baseDescription>NAME was trained for infantry deployment as part of a large unit.</baseDescription>
+    <baseDescription>[PAWN_nameDef] was trained for infantry deployment as part of a large unit.</baseDescription>
     <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
 		<maleCommonality>90</maleCommonality>
@@ -424,7 +424,7 @@
         <amount>2</amount>
       </li>
 	  <li>
-        <defName>Growing</defName>
+        <defName>Plants</defName>
         <amount>4</amount>
       </li>
       <li>
@@ -444,7 +444,7 @@
     <defName>WolvxCommander</defName>
     <title>Army commander</title>
 	<titleShort>Army commander</titleShort>
-    <baseDescription>NAME leads troops as their commander. HECAP has successfully led troops through a number of conflicts.</baseDescription>
+    <baseDescription>[PAWN_nameDef] leads troops as their commander. [PAWN_pronoun] has successfully led troops through a number of conflicts.</baseDescription>
     <slot>Adulthood</slot>
     <spawnCategories>
       <li>WolvxBackstory</li>
@@ -463,7 +463,7 @@
         <amount>4</amount>
       </li>
       <li>
-        <defName>Growing</defName>
+        <defName>Plants</defName>
         <amount>4</amount>
       </li>
       <li>
@@ -477,7 +477,7 @@
     <defName>WolvxMCommander</defName>
     <title>Merc commander</title>
 	<titleShort>Merc commander</titleShort>
-    <baseDescription>NAME leads a troop of mercenaries as their commander. HECAP has successfully led troops through a number of conflicts.</baseDescription>
+    <baseDescription>[PAWN_nameDef] leads a troop of mercenaries as their commander. [PAWN_pronoun] has successfully led troops through a number of conflicts.</baseDescription>
     <slot>Adulthood</slot>
     <spawnCategories>
       <li>WolvxBackstory</li>
@@ -496,7 +496,7 @@
         <amount>4</amount>
       </li>
       <li>
-        <defName>Growing</defName>
+        <defName>Plants</defName>
         <amount>4</amount>
       </li>
       <li>
@@ -510,12 +510,13 @@
     <defName>WolvxSoldierAx</defName>
     <title>Army soldier</title>
 	<titleShort>Army soldier</titleShort>
-    <baseDescription>NAME was assigned to one of the larger units, serving through several major conflicts.</baseDescription>
+    <baseDescription>[PAWN_nameDef] was assigned to one of the larger units, serving through several major conflicts.</baseDescription>
     <slot>Adulthood</slot>
     <spawnCategories>
       <li>WolvxBackstory</li>
     </spawnCategories>
 	<bodyTypeMale>Male</bodyTypeMale>
+  <bodyTypeFemale>Female</bodyTypeFemale>
 		<maleCommonality>20</maleCommonality>
 	<femaleCommonality>20</femaleCommonality>
     <skillGains>
@@ -542,12 +543,13 @@
     <defName>WolvxSoldierMx</defName>
     <title>Merc soldier</title>
 	<titleShort>Merc soldier</titleShort>
-    <baseDescription>NAME was contracted with a large mercenary unit, serving through several major conflicts.</baseDescription>
+    <baseDescription>[PAWN_nameDef] was contracted with a large mercenary unit, serving through several major conflicts.</baseDescription>
     <slot>Adulthood</slot>
     <spawnCategories>
       <li>WolvxBackstory</li>
     </spawnCategories>
 	<bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
 		<maleCommonality>20</maleCommonality>
 	<femaleCommonality>20</femaleCommonality>
     <skillGains>
@@ -574,7 +576,7 @@
     <defName>WolvxGunmakerA</defName>
     <title>Army gunsmith</title>
     <titleShort>Army gunsmith</titleShort>
-    <baseDescription>NAME's training was augmented with gunsmithing and maintenance, serving HIS platoon's needs for weapon maintenance and requisition.</baseDescription>
+    <baseDescription>[PAWN_nameDef]'s training was augmented with gunsmithing and maintenance, serving [PAWN_possessive] platoon's needs for weapon maintenance and requisition.</baseDescription>
     <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
 		<maleCommonality>20</maleCommonality>
@@ -599,7 +601,7 @@
     <defName>WolvxGunmakerM</defName>
     <title>Merc gunsmith</title>
     <titleShort>Merc gunsmith</titleShort>
-    <baseDescription>NAME's training was augmented with gunsmithing and maintenance, serving HIS merc unit's needs for weapon maintenance and requisition.</baseDescription>
+    <baseDescription>[PAWN_nameDef]'s training was augmented with gunsmithing and maintenance, serving [PAWN_possessive] merc unit's needs for weapon maintenance and requisition.</baseDescription>
     <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
 		<maleCommonality>20</maleCommonality>
@@ -624,7 +626,7 @@
     <defName>WolvxDeveloper</defName>
     <title>Battlesim developer</title>
     <titleShort>Military dev</titleShort>
-    <baseDescription>NAME has an extensive expertise in programming and tactical combat, making HIM a leading expert in BattleSim development - creating extremely effective training simulations for troops.</baseDescription>
+    <baseDescription>[PAWN_nameDef] has an extensive expertise in programming and tactical combat, making [PAWN_pronoun] a leading expert in BattleSim development - creating extremely effective training simulations for troops.</baseDescription>
     <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
 		<maleCommonality>20</maleCommonality>
@@ -653,7 +655,7 @@
     <defName>WolvxCmbEngA</defName>
     <title>Army engineer</title>
     <titleShort>Army engineer</titleShort>
-    <baseDescription>NAME served as a combat engineer with a major army detatchment, servicing vehicles and equipment.</baseDescription>
+    <baseDescription>[PAWN_nameDef] served as a combat engineer with a major army detatchment, servicing vehicles and equipment.</baseDescription>
     <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
 		<maleCommonality>20</maleCommonality>
@@ -682,7 +684,7 @@
     <defName>WolvxCmbEngM</defName>
     <title>Merc engineer</title>
     <titleShort>Merc engineer</titleShort>
-    <baseDescription>NAME served as a combat engineer with a famous merc unit, servicing their vehicles and equipment.</baseDescription>
+    <baseDescription>[PAWN_nameDef] served as a combat engineer with a famous merc unit, servicing their vehicles and equipment.</baseDescription>
     <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
 		<maleCommonality>20</maleCommonality>
@@ -711,7 +713,7 @@
     <defName>WolvxAMedic</defName>
     <title>Army medic</title>
     <titleShort>Army medic</titleShort>
-    <baseDescription>NAME serves as a combat medic, performing triage on the front lines, or more extensive medicine at a MASH (Mobile Army Surgical Hospital) unit.</baseDescription>
+    <baseDescription>[PAWN_nameDef] serves as a combat medic, performing triage on the front lines, or more extensive medicine at a MASH (Mobile Army Surgical Hospital) unit.</baseDescription>
     <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
 		<maleCommonality>20</maleCommonality>
@@ -740,7 +742,7 @@
     <defName>WolvxAMedic</defName>
     <title>Merc medic</title>
     <titleShort>Merc medic</titleShort>
-    <baseDescription>NAME is contracted as a mercenary combat medic, performing triage on the front lines, or more extensive medicine at a MASH (Mobile Army Surgical Hospital) unit.</baseDescription>
+    <baseDescription>[PAWN_nameDef] is contracted as a mercenary combat medic, performing triage on the front lines, or more extensive medicine at a MASH (Mobile Army Surgical Hospital) unit.</baseDescription>
     <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
 		<maleCommonality>20</maleCommonality>
@@ -770,7 +772,7 @@
     <defName>WolvxScout</defName>
     <title>Army scout</title>
     <titleShort>Army scout</titleShort>
-    <baseDescription>NAME serves as a scout for a large detatchment of troops, identifying hazards and potential ambush points.</baseDescription>
+    <baseDescription>[PAWN_nameDef] serves as a scout for a large detatchment of troops, identifying hazards and potential ambush points.</baseDescription>
     <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
 		<maleCommonality>30</maleCommonality>
@@ -782,7 +784,7 @@
         <amount>3</amount>
       </li>
       <li>
-        <defName>Growing</defName>
+        <defName>Plants</defName>
         <amount>3</amount>
       </li>
       <li>
@@ -799,7 +801,7 @@
     <defName>WolvxMScout</defName>
     <title>Merc scout</title>
     <titleShort>Merc scout</titleShort>
-    <baseDescription>NAME serves as a scout for a veteran mercenary group, identifying hazards and potential ambush points.</baseDescription>
+    <baseDescription>[PAWN_nameDef] serves as a scout for a veteran mercenary group, identifying hazards and potential ambush points.</baseDescription>
     <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
 		<maleCommonality>30</maleCommonality>
@@ -811,7 +813,7 @@
         <amount>3</amount>
       </li>
       <li>
-        <defName>Growing</defName>
+        <defName>Plants</defName>
         <amount>3</amount>
       </li>
       <li>
@@ -828,7 +830,7 @@
     <defName>MajorWolvx</defName>
     <title>Army major</title>
     <titleShort>Army major</titleShort>
-    <baseDescription>NAME served as intelligence officer for a large army unit, providing tactical support and intel coordination for HIS unit.</baseDescription>
+    <baseDescription>[PAWN_nameDef] served as intelligence officer for a large army unit, providing tactical support and intel coordination for [PAWN_possessive] unit.</baseDescription>
     <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
 		<maleCommonality>20</maleCommonality>
@@ -861,7 +863,7 @@
     <defName>MajorMWolvx</defName>
     <title>Merc major</title>
     <titleShort>Merc major</titleShort>
-    <baseDescription>NAME served as intelligence officer for a large mercenary corps, providing tactical support and intel coordination.</baseDescription>
+    <baseDescription>[PAWN_nameDef] served as intelligence officer for a large mercenary corps, providing tactical support and intel coordination.</baseDescription>
     <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
 		<maleCommonality>20</maleCommonality>
@@ -894,7 +896,7 @@
     <defName>WolvxAPilot</defName>
     <title>Army pilot</title>
     <titleShort>Army pilot</titleShort>
-    <baseDescription>NAME served as a military pilot in a variety of fighter and support craft.</baseDescription>
+    <baseDescription>[PAWN_nameDef] served as a military pilot in a variety of fighter and support craft.</baseDescription>
     <slot>Adulthood</slot>
     <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
@@ -923,7 +925,7 @@
     <defName>WolvxMPilot</defName>
     <title>Merc pilot</title>
     <titleShort>Merc pilot</titleShort>
-    <baseDescription>NAME was contracted as a military pilot to fly a variety of fighter and support craft, in multiple combat roles.</baseDescription>
+    <baseDescription>[PAWN_nameDef] was contracted as a military pilot to fly a variety of fighter and support craft, in multiple combat roles.</baseDescription>
     <slot>Adulthood</slot>
     <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
@@ -952,7 +954,7 @@
     <defName>WolvxACommando</defName>
     <title>Army commando</title>
     <titleShort>Army commando</titleShort>
-    <baseDescription>NAME served with a small army commando unit, executing strike or extraction missions deep behind enemy lines.</baseDescription>
+    <baseDescription>[PAWN_nameDef] served with a small army commando unit, executing strike or extraction missions deep behind enemy lines.</baseDescription>
     <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
 		<maleCommonality>28</maleCommonality>
@@ -985,7 +987,7 @@
     <defName>WolvxMCommando</defName>
     <title>Merc commando</title>
     <titleShort>Merc commando</titleShort>
-    <baseDescription>NAME served with a small merc commando unit, executing strike or extraction missions deep behind enemy lines.</baseDescription>
+    <baseDescription>[PAWN_nameDef] served with a small merc commando unit, executing strike or extraction missions deep behind enemy lines.</baseDescription>
     <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
 		<maleCommonality>28</maleCommonality>
@@ -1018,7 +1020,7 @@
     <defName>WolvxADemo</defName>
     <title>Army demolitions</title>
     <titleShort>Army demo</titleShort>
-    <baseDescription>NAME served as a demolitions and heavy weapons expert in a large detatchment of troops. HECAP has an expertise in various explosives, as well as combat engineering.</baseDescription>
+    <baseDescription>[PAWN_nameDef] served as a demolitions and heavy weapons expert in a large detatchment of troops. [PAWN_pronoun] has an expertise in various explosives, as well as combat engineering.</baseDescription>
     <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
 		<maleCommonality>10</maleCommonality>
@@ -1051,7 +1053,7 @@
     <defName>WolvxMDemo</defName>
     <title>Merc demolitions</title>
     <titleShort>Merc demo</titleShort>
-    <baseDescription>NAME served as a demolitions and heavy weapons expert in a large merc unit. HECAP has an expertise in various explosives, as well as combat engineering.</baseDescription>
+    <baseDescription>[PAWN_nameDef] served as a demolitions and heavy weapons expert in a large merc unit. [PAWN_pronoun] has an expertise in various explosives, as well as combat engineering.</baseDescription>
     <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
 		<maleCommonality>18</maleCommonality>
@@ -1084,7 +1086,7 @@
     <defName>Wolvxmechw</defName>
     <title>Mech pilot</title>
     <titleShort>Mechwarrior</titleShort>
-    <baseDescription>NAME is a Battlemech pilot, a Mech Warrior. Operating these massive walking tanks, MechWarriors serve in the armies of the Great Houses or as part of a Mercenary unit, fight in the gladiatorial arenas of Solaris VII, or operate on the fringes of society as pirates and bandits. Among the Clans, a MechWarrior can either be trueborn or freeborn, with the former enjoying greater social standing.
+    <baseDescription>[PAWN_nameDef] is a Battlemech pilot, a Mech Warrior. Operating these massive walking tanks, MechWarriors serve in the armies of the Great Houses or as part of a Mercenary unit, fight in the gladiatorial arenas of Solaris VII, or operate on the fringes of society as pirates and bandits. Among the Clans, a MechWarrior can either be trueborn or freeborn, with the former enjoying greater social standing.
     The jumpship HE was on had a jump-drive failure, casting them off into the unknown. After waiting several weeks for rescue, with supplies running low, the crew decided to use the escape pods at the nearest habitable planet...
     </baseDescription>
     <bodyTypeMale>Male</bodyTypeMale>
