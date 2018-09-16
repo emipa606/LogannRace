@@ -7,6 +7,7 @@
     <description>A colony of the Logan Military State.</description>
     <pawnsPlural>Logan</pawnsPlural>
     <requiredCountAtGameStart>1</requiredCountAtGameStart>
+    <settlementGenerationWeight>1</settlementGenerationWeight>
     <canMakeRandomly>true</canMakeRandomly>
     <canSiege>true</canSiege>
     <canStageAttacks>true</canStageAttacks>
@@ -62,6 +63,16 @@
           <WolvxMerc>100</WolvxMerc>
           <WolvxBrawler>130</WolvxBrawler>
           <WolvxProfessional>130</WolvxProfessional>
+          <WolvxNinja>170</WolvxNinja>
+        </options>
+      </li>
+        <li>
+        <kindDef>Peaceful</kindDef>
+        <options>
+          <WolvxColonist>50</WolvxColonist>
+          <WolvxSecurityGuard>90</WolvxSecurityGuard>
+          <WolvxExecutive>250</WolvxExecutive>
+          <WolvxMerc>100</WolvxMerc>
           <WolvxNinja>170</WolvxNinja>
         </options>
       </li>

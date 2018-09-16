@@ -1,5 +1,67 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
+
+  <AlienRace.RaceSettings>
+    <defName>Wolvx_Settings</defName>
+    <pawnKindSettings>
+            <alienslavekinds>
+                <li>
+                    <kindDefs>
+                        <li>WolvxSlave</li>
+                    </kindDefs>
+                    <chance>40.0</chance>
+                </li>
+            </alienslavekinds>
+            <alienrefugeekinds>
+                <li>
+                    <kindDefs>
+                        <li>WolvxRefugee</li>
+                    </kindDefs>
+                    <chance>50.0</chance>
+                </li>
+            </alienrefugeekinds>
+			<startingColonists>
+				<li>
+				<pawnKindEntries>
+					<li>
+                    <kindDefs>
+                        <li>WolvxBrawler</li>
+						<li>WolvxProfessional</li>
+						<li>WolvxNinja</li>
+						<li>WolvxColonist</li>
+                    </kindDefs>
+                    <chance>10.0</chance>
+					</li>
+				</pawnKindEntries>
+					<factionDefs>
+						<li>WolvxPlayerColony</li> 
+					</factionDefs>
+				</li>
+			</startingColonists>
+            <alienwandererkinds>
+                <li>
+                <pawnKindEntries>
+                <li>
+                <kindDefs>
+                    <li>WolvxBrawler</li>
+				    <li>WolvxProfessional</li>
+				    <li>WolvxColonist</li>
+					<li>WolvxNinja</li>
+					<li>WolvxExecutive</li>
+					<li>WolvxMerc</li>
+                </kindDefs>
+                    <chance>50.0</chance>
+                </li>
+                </pawnKindEntries>
+                    <factionDefs>
+                        <li>WolvxPlayerColony</li> 
+                    </factionDefs>
+                </li>
+            </alienwandererkinds>
+        </pawnKindSettings>
+  </AlienRace.RaceSettings>
+
+
 <ThingDef Name="BaseWolvPawn" Abstract="True">
     <thingClass>Pawn</thingClass>
     <category>Pawn</category>

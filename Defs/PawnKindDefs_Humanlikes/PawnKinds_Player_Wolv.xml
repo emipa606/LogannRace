@@ -8,6 +8,7 @@
     <isFighter>false</isFighter>
     <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
     <forceNormalGearQuality>true</forceNormalGearQuality>
+    <apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
   </PawnKindDef>
 
   <PawnKindDef ParentName="BaseWolvxPawnKind">
@@ -19,6 +20,11 @@
   	</backstoryCategories>
     <apparelTags>
       <li>Spacer</li>
+      <li>IndustrialBasic</li>
+      <li>IndustrialAdvanced</li>
+      <li>IndustrialMilitaryBasic</li>
+      <li>IndustrialMilitaryAdvanced</li>
+      <li>SpacerMilitary</li>
     </apparelTags>
     <apparelMoney>
       <min>1000</min>
