@@ -244,8 +244,8 @@
                 </li>
             </bodyAddons>
             </alienPartGenerator>
-			<chemicalSettings>	
-		    </chemicalSettings>
+			<chemicalSettings />	
+            <humanRecipeImport>true</humanRecipeImport>
         </generalSettings>
         <graphicPaths>
             <li>
