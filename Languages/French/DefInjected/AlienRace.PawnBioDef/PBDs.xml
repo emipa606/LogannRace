@@ -1,17 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <WolvBioDutch.name.first>Alan</WolvBioDutch.name.first>
   <WolvBioDutch.name.last>Schaefer</WolvBioDutch.name.last>
   <WolvBioDutch.name.nick>Dutch</WolvBioDutch.name.nick>
-
   <WBio_NFury.name.first>Nick</WBio_NFury.name.first>
   <WBio_NFury.name.last>Fury</WBio_NFury.name.last>
   <WBio_NFury.name.nick>Fury</WBio_NFury.name.nick>
-
   <WBio_BJBlaz.name.first>BJ</WBio_BJBlaz.name.first>
   <WBio_BJBlaz.name.last>Blazkowicz</WBio_BJBlaz.name.last>
   <WBio_BJBlaz.name.nick>Blazko</WBio_BJBlaz.name.nick>
-
-
 </LanguageData>

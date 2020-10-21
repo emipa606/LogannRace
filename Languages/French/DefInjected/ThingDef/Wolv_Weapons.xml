@@ -1,22 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <Bullet_WolvShotgun.label>shotgun blast</Bullet_WolvShotgun.label>
-
   <Gun_WolvShotgun.label>Fusil à pompe Wolwerine</Gun_WolvShotgun.label>
   <Gun_WolvShotgun.description>Une fusil à pompe possédant un chargeur automatique. Courte portée et faible précision, il est cependant extrêmement dangereux (surtout dans les mains d'un enfant)</Gun_WolvShotgun.description>
-
   <Wolv_Katana.label>Katana Wolwerine</Wolv_Katana.label>
   <Wolv_Katana.description>Les Katana étaient des armes traditionnelles japonaises qui étaient utilisés au temps féodal du japon. Celui-ci fût forgé avec les techniques modernes tout en ayant le design authentique.</Wolv_Katana.description>
-
   <Wolv_Axe.label>Hache de guerre Wolwerine</Wolv_Axe.label>
   <Wolv_Axe.description>Cette énorme hache sacrifie la vitesse pour une puissance consiérable</Wolv_Axe.description>
-
   <Wolv_Mace.label>Mace Wolwerine</Wolv_Mace.label>
   <Wolv_Mace.description>Cette mace Brutale à été forgée selon les designs médiévaux, idéal pour faire des traumatisme crânien.</Wolv_Mace.description>
-
   <Wolv_Sword.label>Epee Wolwerine</Wolv_Sword.label>
   <Wolv_Sword.description>C'est une épée basique, autrefois utilisée pour couper des têtes.</Wolv_Sword.description>
-
-
 </LanguageData>

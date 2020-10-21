@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <FactionDef Abstract="True" Name="WolvxFactionBase">
+    <colorSpectrum>
+      <li>(0, 0.737, 0.847)</li>
+      <li>(0.8, 0.737, 0.147)</li>
+    </colorSpectrum>
+  </FactionDef>
+  <FactionDef Parent="WolvxFactionBase">
+    <defName>WolvxPlayerColony</defName>
+    <label>LMX Merc Corps</label>
+    <description>Your own Logann Merc Corps.</description>
+    <isPlayer>true</isPlayer>
+    <basicMemberKind>Wolvx</basicMemberKind>
+    <pawnsPlural>colonists</pawnsPlural>
+    <settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
+    <playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>
+    <factionNameMaker>NamerFactionOutlander</factionNameMaker>
+    <techLevel>Ultra</techLevel>
+    <backstoryFilters>
+      <li>
+        <categories>
+          <li>WolvxBackstory</li>
+        </categories>
+      </li>
+    </backstoryFilters>
+    <settlementTexturePath>World/WolvxBaseIcon</settlementTexturePath>
+    <factionIconPath>World/WolvxBaseIcon</factionIconPath>
+    <startingResearchTags>
+      <li>ClassicStart</li>
+    </startingResearchTags>
+    <hairTags>
+      <li>WolvxHair</li>
+    </hairTags>
+    <apparelStuffFilter>
+      <thingDefs>
+        <li>Synthread</li>
+      </thingDefs>
+    </apparelStuffFilter>
+  </FactionDef>
+  <FactionDef Parent="WolvxFactionBase">
+    <defName>WolvxPlayerColonyTribal</defName>
+    <label>Logann War Tribe</label>
+    <description>Logann semi-tribal start.</description>
+    <isPlayer>true</isPlayer>
+    <basicMemberKind>Wolvx</basicMemberKind>
+    <settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
+    <playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>
+    <factionNameMaker>NamerFactionOutlander</factionNameMaker>
+    <pawnsPlural>colonists</pawnsPlural>
+    <techLevel>Neolithic</techLevel>
+    <backstoryFilters>
+      <li>
+        <categories>
+          <li>WolvxBackstory</li>
+        </categories>
+      </li>
+    </backstoryFilters>
+    <settlementTexturePath>World/WolvxBaseIcon</settlementTexturePath>
+    <factionIconPath>World/WolvxBaseIcon</factionIconPath>
+    <geneticVariance>1</geneticVariance>
+    <startingResearchTags>
+      <li>TribalStart</li>
+    </startingResearchTags>
+    <hairTags>
+      <li>WolvxHair</li>
+    </hairTags>
+    <apparelStuffFilter>
+      <thingDefs>
+        <li>Synthread</li>
+      </thingDefs>
+    </apparelStuffFilter>
+    <colorSpectrum>
+      <li>(0, 0.437, 0.847)</li>
+    </colorSpectrum>
+  </FactionDef>
+</Defs>

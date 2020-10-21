@@ -25,10 +25,12 @@ namespace Wolverine.Logic
 
             //Working lists for recursive iteration.
             List<BodyPartRecord> currentSet = new List<BodyPartRecord>();
-            List<BodyPartRecord> nextSet = new List<BodyPartRecord>();
+            List<BodyPartRecord> nextSet = new List<BodyPartRecord>
+            {
 
-            //Seed part.
-            nextSet.Add(startingPart);
+                //Seed part.
+                startingPart
+            };
 
             do
             {
@@ -87,10 +89,12 @@ namespace Wolverine.Logic
 
             //Working lists for recursive iteration.
             List<BodyPartRecord> currentSet = new List<BodyPartRecord>();
-            List<BodyPartRecord> nextSet = new List<BodyPartRecord>();
+            List<BodyPartRecord> nextSet = new List<BodyPartRecord>
+            {
 
-            //Seed part.
-            nextSet.Add(startingPart);
+                //Seed part.
+                startingPart
+            };
 
             do
             {
@@ -160,10 +164,12 @@ namespace Wolverine.Logic
 
             //Working lists for recursive iteration.
             List<BodyPartRecord> currentSet = new List<BodyPartRecord>();
-            List<BodyPartRecord> nextSet = new List<BodyPartRecord>();
+            List<BodyPartRecord> nextSet = new List<BodyPartRecord>
+            {
 
-            //Seed part.
-            nextSet.Add(startingPart);
+                //Seed part.
+                startingPart
+            };
 
             do
             {
@@ -232,10 +238,12 @@ namespace Wolverine.Logic
 
             //Working lists for recursive iteration.
             List<BodyPartRecord> currentSet = new List<BodyPartRecord>();
-            List<BodyPartRecord> nextSet = new List<BodyPartRecord>();
+            List<BodyPartRecord> nextSet = new List<BodyPartRecord>
+            {
 
-            //Seed part.
-            nextSet.Add(startingPart);
+                //Seed part.
+                startingPart
+            };
 
             do
             {
@@ -303,10 +311,12 @@ namespace Wolverine.Logic
 
             //Working lists for recursive iteration.
             List<BodyPartRecord> currentSet = new List<BodyPartRecord>();
-            List<BodyPartRecord> nextSet = new List<BodyPartRecord>();
+            List<BodyPartRecord> nextSet = new List<BodyPartRecord>
+            {
 
-            //Seed part.
-            nextSet.Add(startingPart);
+                //Seed part.
+                startingPart
+            };
 
             do
             {
@@ -365,10 +375,12 @@ namespace Wolverine.Logic
 
             //Working lists for recursive iteration.
             List<BodyPartRecord> currentSet = new List<BodyPartRecord>();
-            List<BodyPartRecord> nextSet = new List<BodyPartRecord>();
+            List<BodyPartRecord> nextSet = new List<BodyPartRecord>
+            {
 
-            //Seed part.
-            nextSet.Add(startingPart);
+                //Seed part.
+                startingPart
+            };
 
             do
             {

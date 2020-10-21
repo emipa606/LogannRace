@@ -1,12 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <BabyStageWolvx.label>bébé</BabyStageWolvx.label>
   <ChildStageWolvx.label>enfant</ChildStageWolvx.label>
   <TeenStageWolvx.label>adulte</TeenStageWolvx.label>
   <AdultStageWolvx.label>adulte</AdultStageWolvx.label>
   <ElderStageWolvx.label>âgé</ElderStageWolvx.label>
   <AncestorStageWolvx.label>ancetre</AncestorStageWolvx.label>
-
-
 </LanguageData>

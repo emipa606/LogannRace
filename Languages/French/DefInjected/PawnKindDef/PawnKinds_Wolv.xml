@@ -1,83 +1,66 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <!-- Wolvx Civilians -->
-
   <WolvxColonist.label>colon</WolvxColonist.label>
   <WolvxColonist.labelPlural>colons</WolvxColonist.labelPlural>
   <WolvxColonist.labelMale>colon mâle</WolvxColonist.labelMale>
   <WolvxColonist.labelMalePlural>colons mâles</WolvxColonist.labelMalePlural>
   <WolvxColonist.labelFemale>colon femelle</WolvxColonist.labelFemale>
   <WolvxColonist.labelFemalePlural>colons femelles</WolvxColonist.labelFemalePlural>
-
   <WolvxExecutive.label>activiste</WolvxExecutive.label>
   <WolvxExecutive.labelPlural>activistes</WolvxExecutive.labelPlural>
   <WolvxExecutive.labelMale>activiste homme</WolvxExecutive.labelMale>
   <WolvxExecutive.labelMalePlural>activistes hommes</WolvxExecutive.labelMalePlural>
   <WolvxExecutive.labelFemale>Femme activiste</WolvxExecutive.labelFemale>
   <WolvxExecutive.labelFemalePlural>Femmes activistes</WolvxExecutive.labelFemalePlural>
-
   <WolvxTrader.label>businessman</WolvxTrader.label>
   <WolvxTrader.labelPlural>businessmans</WolvxTrader.labelPlural>
   <WolvxTrader.labelMale>businessman homme</WolvxTrader.labelMale>
   <WolvxTrader.labelMalePlural>businessmans hommes</WolvxTrader.labelMalePlural>
   <WolvxTrader.labelFemale>Femme businessman</WolvxTrader.labelFemale>
   <WolvxTrader.labelFemalePlural>Femmes businessmans</WolvxTrader.labelFemalePlural>
-
   <WolvxSlave.label>esclave</WolvxSlave.label>
   <WolvxSlave.labelPlural>esclaves</WolvxSlave.labelPlural>
   <WolvxSlave.labelMale>esclave homme</WolvxSlave.labelMale>
   <WolvxSlave.labelMalePlural>esclaves hommes</WolvxSlave.labelMalePlural>
   <WolvxSlave.labelFemale>esclave femme</WolvxSlave.labelFemale>
   <WolvxSlave.labelFemalePlural>esclaves femmes</WolvxSlave.labelFemalePlural>
-
   <WolvxRefugee.label>refugié</WolvxRefugee.label>
   <WolvxRefugee.labelPlural>refugiés</WolvxRefugee.labelPlural>
   <WolvxRefugee.labelMale>refugié homme</WolvxRefugee.labelMale>
   <WolvxRefugee.labelMalePlural>refugiés hommes</WolvxRefugee.labelMalePlural>
   <WolvxRefugee.labelFemale>refugié femme</WolvxRefugee.labelFemale>
   <WolvxRefugee.labelFemalePlural>refugiés femmes</WolvxRefugee.labelFemalePlural>
-
-
   <!-- Wolvx Security -->
-
   <WolvxSecurityGuard.label>agent de sécurité</WolvxSecurityGuard.label>
   <WolvxSecurityGuard.labelPlural>agents de sécurité</WolvxSecurityGuard.labelPlural>
   <WolvxSecurityGuard.labelMale>agent de sécurité homme</WolvxSecurityGuard.labelMale>
   <WolvxSecurityGuard.labelMalePlural>agents de sécurité hommes</WolvxSecurityGuard.labelMalePlural>
   <WolvxSecurityGuard.labelFemale>agent de sécurité femme</WolvxSecurityGuard.labelFemale>
   <WolvxSecurityGuard.labelFemalePlural>agents de sécurité femme</WolvxSecurityGuard.labelFemalePlural>
-
-
   <!-- Wolvx Military -->
-
   <WolvxMerc.label>mercenaire</WolvxMerc.label>
   <WolvxMerc.labelPlural>mercenaires</WolvxMerc.labelPlural>
   <WolvxMerc.labelMale>mercenaire homme</WolvxMerc.labelMale>
   <WolvxMerc.labelMalePlural>mercenaires hommes</WolvxMerc.labelMalePlural>
   <WolvxMerc.labelFemale>mercenaire femme</WolvxMerc.labelFemale>
   <WolvxMerc.labelFemalePlural>mercenaires femmes</WolvxMerc.labelFemalePlural>
-
   <WolvxBrawler.label>Bagarreur</WolvxBrawler.label>
   <WolvxBrawler.labelPlural>Bagarreurs</WolvxBrawler.labelPlural>
   <WolvxBrawler.labelMale>Bagarreur homme</WolvxBrawler.labelMale>
   <WolvxBrawler.labelMalePlural>Bagarreurs hommes</WolvxBrawler.labelMalePlural>
   <WolvxBrawler.labelFemale>Bagarreur femme</WolvxBrawler.labelFemale>
   <WolvxBrawler.labelFemalePlural>Bagarreurs femmes</WolvxBrawler.labelFemalePlural>
-
   <WolvxProfessional.label>Officer</WolvxProfessional.label>
   <WolvxProfessional.labelPlural>Officers</WolvxProfessional.labelPlural>
   <WolvxProfessional.labelMale>Officer homme</WolvxProfessional.labelMale>
   <WolvxProfessional.labelMalePlural>mfficers hommes</WolvxProfessional.labelMalePlural>
   <WolvxProfessional.labelFemale>Officer femme</WolvxProfessional.labelFemale>
   <WolvxProfessional.labelFemalePlural>Officers femmes</WolvxProfessional.labelFemalePlural>
-
   <WolvxNinja.label>ninja</WolvxNinja.label>
   <WolvxNinja.labelPlural>ninjas</WolvxNinja.labelPlural>
   <WolvxNinja.labelMale>ninja homme</WolvxNinja.labelMale>
   <WolvxNinja.labelMalePlural>ninjas hommes</WolvxNinja.labelMalePlural>
   <WolvxNinja.labelFemale>ninja femme</WolvxNinja.labelFemale>
   <WolvxNinja.labelFemalePlural>ninjas femmes</WolvxNinja.labelFemalePlural>
-
-
 </LanguageData>

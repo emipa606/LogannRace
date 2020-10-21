@@ -108,10 +108,9 @@ namespace Wolverine
         /// </summary>
         void TryHealRandomOldWound()
         {
-            Hediff hediff;
             if (!(from hd in pawn.health.hediffSet.hediffs
                   where hd.IsTended()
-                  select hd).TryRandomElement(out hediff))
+                  select hd).TryRandomElement(out Hediff hediff))
             {
                 return;
             }
@@ -132,8 +131,7 @@ namespace Wolverine
             {
                 foreach(Hediff wound in wounds)
                 {
-                    HediffWithComps hediffWithComps = wound as HediffWithComps;
-                    if (hediffWithComps != null)
+                    if (wound is HediffWithComps hediffWithComps)
                     {
                         HediffComp_TendDuration hediffComp_TendDuration = hediffWithComps.TryGetComp<HediffComp_TendDuration>();
 
