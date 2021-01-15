@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/MainButtonDef[defName="Achievements"]</xpath>
+    <success>Always</success>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationAdd">
+          <xpath>Defs</xpath>
+          <value>
+            <AchievementsExpanded.AchievementTabDef>
+              <defName>Mlie_Continued</defName>
+              <label>Continued Mods</label>
+            </AchievementsExpanded.AchievementTabDef>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>Defs</xpath>
+          <value>
+            <AchievementsExpanded.AchievementDef Name="Mlie_AchievementParent" Abstract="true">
+              <bgtexPath>Achievements/AchievmentsBG</bgtexPath>
+              <tab>Mlie_Continued</tab>
+            </AchievementsExpanded.AchievementDef>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>Defs</xpath>
+          <value>
+            <AchievementsExpanded.AchievementDef ParentName="Mlie_AchievementParent">
+              <defName>Logann_WeaponX</defName>
+              <label>Weapon X</label>
+              <description>Have one Logann colonist</description>
+              <tracker Class="AchievementsExpanded.RaceDefTracker">
+                <raceDefs>
+                  <li>
+                    <key>Alien_Wolvx</key>
+                    <value>1</value>
+                  </li>
+                </raceDefs>
+              </tracker>
+              <texPath>Achievements/Logann_WeaponX</texPath>
+              <points>10</points>
+            </AchievementsExpanded.AchievementDef>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>Defs</xpath>
+          <value>
+            <AchievementsExpanded.AchievementDef ParentName="Mlie_AchievementParent">
+              <defName>Logann_TheTroopsAreHere</defName>
+              <label>The Troops Are Here</label>
+              <description>Have three Logann colonists</description>
+              <tracker Class="AchievementsExpanded.RaceDefTracker">
+                <raceDefs>
+                  <li>
+                    <key>Alien_Wolvx</key>
+                    <value>3</value>
+                  </li>
+                </raceDefs>
+              </tracker>
+              <texPath>Achievements/Logann_TheTroopsAreHere</texPath>
+              <points>20</points>
+            </AchievementsExpanded.AchievementDef>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>Defs</xpath>
+          <value>
+            <AchievementsExpanded.AchievementDef ParentName="Mlie_AchievementParent">
+              <defName>Logann_YoureInTheArmyNow</defName>
+              <label>You're In The Army Now</label>
+              <description>Have ten Logann colonists</description>
+              <tracker Class="AchievementsExpanded.RaceDefTracker">
+                <raceDefs>
+                  <li>
+                    <key>Alien_Wolvx</key>
+                    <value>10</value>
+                  </li>
+                </raceDefs>
+              </tracker>
+              <texPath>Achievements/Logann_YoureInTheArmyNow</texPath>
+              <points>50</points>
+            </AchievementsExpanded.AchievementDef>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>Defs</xpath>
+          <value>
+            <IncidentDef>
+              <defName>Logann_LogannJoinsTheColony</defName>
+              <label>Logann Joins the Colony</label>
+              <category>Misc</category>
+              <targetTags>
+                <li>Map_PlayerHome</li>
+              </targetTags>
+              <workerClass>IncidentWorker_WandererJoin</workerClass>
+              <letterLabel>Logann joins: {PAWN_nameDef}</letterLabel>
+              <letterText>A {PAWN_title} named {PAWN_nameDef} has arrived and is joining the colony.\n\n[PAWN_pronoun] is willing to contribute, but will not leave voluntarily. If you don't want {PAWN_nameDef}, you can banish {PAWN_objective}, sell {PAWN_objective} into slavery, or simply kill {PAWN_objective}. However, your other colonists may find this disturbing.</letterText>
+              <baseChance>0</baseChance>
+              <pawnKind>Wolvx</pawnKind>
+            </IncidentDef>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>Defs</xpath>
+          <value>
+            <AchievementsExpanded.Reward_MapIncident>
+              <defName>Logann_ALogannJoinsTheColony</defName>
+              <label>A Logann Joins</label>
+              <cost>150</cost>
+              <incident>Logann_LogannJoinsTheColony</incident>
+            </AchievementsExpanded.Reward_MapIncident>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>

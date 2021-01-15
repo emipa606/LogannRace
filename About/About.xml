@@ -20,28 +20,48 @@
   <loadAfter>
     <li>erdelf.HumanoidAlienRaces</li>
   </loadAfter>
-  <description>Update of Xen and ChJeess mod
+  <description>[img]https://i.imgur.com/WAEzk68.png[/img]
+Update of Xen and ChJeess mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=2018389473
 
-[img]https://i.imgur.com/wtwHAQu.png[/img]
+- Added Royalty goodwill patch
 
-Support-chat:
-https://invite.gg/mlie
+[img]https://i.imgur.com/7Gzt3Rg.png[/img]
 
-Non-steam version:
-https://github.com/emipa606/LogannRace
+[table]
+	[tr]
+		[td][url=https://invite.gg/Mlie][img]https://i.imgur.com/zdzzBrc.png[/img][/url][/td]
+		[td][url=https://github.com/emipa606/LogannRace][img]https://i.imgur.com/kTkpTOE.png[/img][/url][/td]
+	[/tr]
+[/table]
+
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2288125657][img]https://i.imgur.com/kNldlMg.png[/img][/url]
 	
---- Original Description ---
+[img]https://i.imgur.com/NOW7jU1.png[/img]
+
 The Logann are a wolverine(Mustelid) humanoid species.
+	 
+	The wolverine (/ˈwʊlvəriːn/), Gulo gulo (Gulo is Latin for "glutton"), also referred to as the glutton, carcajou, skunk bear, or quickhatch, is the largest land-dwelling species of the family Mustelidae. It is a stocky and muscular carnivore, more closely resembling a small bear than other mustelids. The wolverine, a solitary animal,[1] has a reputation for ferocity and strength out of proportion to its size, with the documented ability to kill prey many times larger than itself.
+	Reflecting the violent reputation of the wolverine, the Logann are a militaristic race - a society of soldiers, mercenaries, and war manufacturing.
 
-The wolverine (/ˈwʊlvəriːn/), Gulo gulo (Gulo is Latin for "glutton"), also referred to as the glutton, carcajou, skunk bear, or quickhatch, is the largest land-dwelling species of the family Mustelidae. It is a stocky and muscular carnivore, more closely resembling a small bear than other mustelids. The wolverine, a solitary animal,[1] has a reputation for ferocity and strength out of proportion to its size, with the documented ability to kill prey many times larger than itself.
-Reflecting the violent reputation of the wolverine, the Logann are a militaristic race - a society of soldiers, mercenaries, and war manufacturing.
+	As a tribute to the widely-loved Marvel namesake character, this race is gifted with a Healing Factor with 5 possible strengths (stages)
 
-As a tribute to the widely-loved Marvel namesake character, this race is gifted with a Healing Factor with 5 possible strengths (stages)
+	Regen assembly by ChJees
 
-Regen assembly by ChJees
+	Uses the Alien Framework V2.0 by Erdelf and co.
+	 
+	 Art and XML by Xen.
 
-Uses the Alien Framework V2.0 by Erdelf and co.
 
-Art and XML by Xen.</description>
+[img]https://i.imgur.com/Rs6T6cr.png[/img]
+[list]
+[*] See if the the error persists if you just have this mod and its requirements active.
+[*] If not, try adding your other mods until it happens again.
+[*] Post your error-log using [url=https://steamcommunity.com/workshop/filedetails/?id=818773962]HugsLib[/url] and command Ctrl+F12
+[*] For best support, please use the Discord-channel for error-reporting.
+[*] Do not report errors by making a discussion-thread, I get no notification of that.
+[*] If you have the solution for a problem, please post it to the GitHub repository.
+[/list]
+</description>
 </ModMetaData>
+
