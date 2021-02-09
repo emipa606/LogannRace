@@ -113,6 +113,7 @@
               <defName>Logann_ALogannJoinsTheColony</defName>
               <label>A Logann Joins</label>
               <cost>150</cost>
+              <tab>Mlie_Continued</tab>
               <incident>Logann_LogannJoinsTheColony</incident>
             </AchievementsExpanded.Reward_MapIncident>
           </value>
