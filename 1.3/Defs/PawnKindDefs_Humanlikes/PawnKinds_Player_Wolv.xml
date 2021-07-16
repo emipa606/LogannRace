@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <PawnKindDef Abstract="True" Name="BaseWolvxPawnKind">
+    <race>Alien_Wolvx</race>
+    <combatPower>40</combatPower>
+    <initialResistanceRange>14~23</initialResistanceRange>
+    <initialWillRange>3~5</initialWillRange>
+    <isFighter>false</isFighter>
+    <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+    <forceNormalGearQuality>true</forceNormalGearQuality>
+    <apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BaseWolvxPawnKind">
+    <defName>Wolvx</defName>
+    <label>colonist</label>
+    <defaultFactionType>WolvxPlayerColony</defaultFactionType>
+    <backstoryFilters>
+      <li>
+        <categories>
+          <li>WolvxBackstory</li>
+        </categories>
+      </li>
+    </backstoryFilters>
+    <apparelTags>
+      <li>Spacer</li>
+      <li>IndustrialBasic</li>
+      <li>IndustrialAdvanced</li>
+      <li>IndustrialMilitaryBasic</li>
+      <li>IndustrialMilitaryAdvanced</li>
+      <li>SpacerMilitary</li>
+    </apparelTags>
+    <apparelMoney>
+      <min>1000</min>
+      <max>2400</max>
+    </apparelMoney>
+    <backstoryCryptosleepCommonality>1</backstoryCryptosleepCommonality>
+  </PawnKindDef>
+</Defs>
