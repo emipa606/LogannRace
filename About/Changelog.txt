@@ -1,5 +1,8 @@
 # Changelog for LogannRace
 
+1.0.8.0 - Added confiurable at game-start option
+
+
 1.0.7.0 - Republish since the HAR framework changed how hair and beards are coded
 
 
