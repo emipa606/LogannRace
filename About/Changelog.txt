@@ -1,5 +1,8 @@
 # Changelog for LogannRace
 
+1.0.9.0 - Wounds and bionics should now be at the correct place
+
+
 1.0.8.0 - Added confiurable at game-start option
 
 
