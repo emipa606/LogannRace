@@ -1,12 +1,11 @@
 ﻿using Verse;
 
-namespace Wolverine
+namespace Wolverine;
+
+/// <summary>
+///     Temporary Hediff for replacing Hediffs like MissingPartHeDiff.
+/// </summary>
+public class RemovableHediff : Hediff
 {
-    /// <summary>
-    ///     Temporary Hediff for replacing Hediffs like MissingPartHeDiff.
-    /// </summary>
-    public class RemovableHediff : Hediff
-    {
-        public override bool ShouldRemove => true;
-    }
+    public override bool ShouldRemove => true;
 }

@@ -1,12 +1,11 @@
 ﻿using RimWorld;
 using Verse;
 
-namespace Wolverine
+namespace Wolverine;
+
+[DefOf]
+public static class WolverineHediffDefOf
 {
-    [DefOf]
-    public static class WolverineHediffDefOf
-    {
-        public static HediffDef WolverineProtoBodypart;
-        public static HediffDef WolverineCuredBodypart;
-    }
+    public static HediffDef WolverineProtoBodypart;
+    public static HediffDef WolverineCuredBodypart;
 }

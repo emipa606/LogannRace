@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>Wolvx_Female_Average_Normal</defName>
+    <graphicPath>Things/Wolvx/Heads/Female_Average_Normal</graphicPath>
+    <gender>Female</gender>
+  </HeadTypeDef>
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>Wolvx_Male_Average_Normal</defName>
+    <graphicPath>Things/Wolvx/Heads/Male_Average_Normal</graphicPath>
+    <gender>Male</gender>
+  </HeadTypeDef>
+</Defs>
