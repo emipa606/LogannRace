@@ -44,3 +44,4 @@ The Logann are a wolverine(Mustelid) humanoid species.
 
 
 
+https://steamcommunity.com/sharedfiles/filedetails/changelog/2263830774]Last updated 2023-01-09
